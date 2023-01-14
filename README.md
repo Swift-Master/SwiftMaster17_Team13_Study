@@ -1,7 +1,7 @@
 # SwiftMaster17_Team13_Study
 
 ## Interview
----
+
 ### 1주차
 - Delegate 패턴을 활용하는 경우를 예를 들어 설명하시오.
 [Leeds](https://github.com/OpenBible3438/SwiftMaster17_Team13_CS_Study/tree/main/iOS/1%EC%A3%BC%EC%B0%A8/Delegate%20%ED%8C%A8%ED%84%B4%EC%9D%84%20%ED%99%9C%EC%9A%A9%ED%95%98%EB%8A%94%20%EA%B2%BD%EC%9A%B0%EB%A5%BC%20%EC%98%88%EB%A5%BC%20%EB%93%A4%EC%96%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4/Leeds), [PAKA](https://github.com/OpenBible3438/SwiftMaster17_Team13_CS_Study/tree/main/iOS/1%EC%A3%BC%EC%B0%A8/Delegate%20%ED%8C%A8%ED%84%B4%EC%9D%84%20%ED%99%9C%EC%9A%A9%ED%95%98%EB%8A%94%20%EA%B2%BD%EC%9A%B0%EB%A5%BC%20%EC%98%88%EB%A5%BC%20%EB%93%A4%EC%96%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4/PAKA)
