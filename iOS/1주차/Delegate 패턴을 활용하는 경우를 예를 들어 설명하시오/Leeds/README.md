@@ -36,10 +36,10 @@ delegate를 제대로 사용하기 위해서는 아래 내용들을 이해하고
 <div markdown="1">
 
 | Band |      |      |      |
-| ------ |------ | ------ | ------ 
+| ------ |------ | ------ | ------ |
 | 보컬 | 기타 | 피아노 | 드럼 |
-|     |<br>       play( ) |  |
-|
+play() 
+
 
 </div>
 
@@ -69,9 +69,9 @@ delegate를 제대로 사용하기 위해서는 아래 내용들을 이해하고
 
 ```swift
 protocol SomeProtocol {
-		var mustBeSettable: Int { get set }    // { get set } => 읽기, 쓰기 가능 프로퍼티
+    var mustBeSettable: Int { get set }    // { get set } => 읽기, 쓰기 가능 프로퍼티
     var doesNotNeedToBeSettable: Int { get }   // { get } => 읽기 전용 프로퍼티
-		static var someTypeProperty: Int { get set } // typeProperty
+    static var someTypeProperty: Int { get set } // typeProperty
 }
 ```
 
@@ -127,47 +127,45 @@ print(profile.getName()) // je
 ## **실생활 예시 코드 (파티 준비)**
 ```swift
 protocol PrepareParty: class {
-		func prepareFood()
-		func prepareSong()
+	func prepareFood()
+	func prepareSong()
 }
 
 class PartyDirector {
-		weak var delegate: PrepareParty?
+	weak var delegate: PrepareParty?
 
-		func order() {
-				self.delegate?.prepareFood()
-				self.delegate?.prepareSong()
-		}
+    func order() {
+        self.delegate?.prepareFood()
+        self.delegate?.prepareSong()
+    }
 }
 
 class FirstPartyWorker: PrepareParty {
-		init(director: PartyDirector) {
-				director.delegate = self 
-                // PartyDirector의 delegate 변수와 자신을 연결해주는 코드
-		}
+	init(director: PartyDirector) {
+		director.delegate = self // PartyDirector의 delegate를 연결해주는 코드
+	}
 
-		func prepareFood() {
-				print("First worker prepared pizza")
-		}
+    func prepareFood() {
+        print("First worker prepared pizza")
+    }
 
-		func prepareSong() {
-				print("First worker prepared NewJeans - OMG")
-		}
+    func prepareSong() {
+        print("First worker prepared NewJeans - OMG")
+    }
 }
 
 class SecondPartyWorker: PrepareParty {
-		init(director: PartyDirector) {
-				director.delegate = self 
-                // PartyDirector의 delegate 변수와 자신을 연결해주는 코드
-		}
+    init(director: PartyDirector) {
+        director.delegate = self // PartyDirector의 delegate를 연결해주는 코드
+    }
 
-		func prepareFood() {
-				print("Second worker prepared chicken")
-		}
+    func prepareFood() {
+        print("Second worker prepared chicken")
+    }
 
-		func prepareSong() {
-				print("Second worker prepared NewJeans - Ditto")
-		}
+    func prepareSong() {
+        print("Second worker prepared NewJeans - Ditto")
+    }
 }
 
 let je = PartyDirector()
@@ -186,7 +184,7 @@ je.order()
 <br><br>
 
 <details>
-<summary style="font-size: 22px; font-weight: bold;">활용 사용 예시</summary>
+<summary style="font-size: 24px; font-weight: bold;">활용 사용 예시</summary>
 
 <div markdown="1"><br>
 
@@ -208,7 +206,7 @@ ViewController가 서로 다른 경우
 <br>
 
 <details>
-<summary style="font-size: 22px; font-weight: bold;">사용 이유</summary>
+<summary style="font-size: 24px; font-weight: bold;">사용 이유</summary>
 
 <div markdown="1"><br>
 
@@ -222,7 +220,7 @@ ViewController가 서로 다른 경우
 <br>
 
 <details>
-<summary style="font-size: 22px; font-weight: bold;">장·단점</summary>
+<summary style="font-size: 24px; font-weight: bold;">장·단점</summary>
 
 <div markdown="1"><br>
 
