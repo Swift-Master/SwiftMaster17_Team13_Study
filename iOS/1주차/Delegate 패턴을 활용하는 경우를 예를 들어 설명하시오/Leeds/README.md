@@ -26,10 +26,10 @@ delegate를 제대로 사용하기 위해서는 아래 내용들을 이해하고
 
 <br>
 
-<span style="background-color: #FFDAB9; color: black;"> 밴드 </span> 의 기본은 
-<span style="background-color: #F0B469; color: black;">기타</span>, <span style="background-color: #F0B469; color: black;">드럼</span>, <span style="background-color: #F0B469; color: black;">피아노</span>, <span style="background-color: #F0B469; color: black;">보컬</span> 이 필수적으로 있어야 한다.
+**밴드** 의 기본은 
+**기타**, **드럼**, **피아노**, **보컬** 이 필수적으로 있어야 한다.
 
-또 <span style="background-color: #FFDAB9; color: black;"> 밴드 </span> 에 대한 또 다른 요구사항 중 하나는 <span style="color: #F0B469;">연주</span> 이다.
+또 **밴드** 에 대한 또 다른 요구사항 중 하나는 **연주** 이다.
 
 <br>
 
@@ -45,20 +45,20 @@ play()
 
 <br>
 
-<span style="color: #F0B469;">연주</span>라는 <span style="background-color: #F0B469; color: black;">play()</span> 까지 추가함으로써, 
+**연주**라는 **play()** 까지 추가함으로써, 
 밴드라는 것에 대한 가이드를 만들었다.
 
 <br>
 
 위 내용을 프로그래밍 적으로 생각해보자면
 
-<span style="background-color: #FFDAB9; color: black;"> 밴드 </span> 를 구성할 때 **필요한 속성** <span style="background-color: #F0B469; color: black;">기타</span>, <span style="background-color: #F0B469; color: black;">드럼</span>, <span style="background-color: #F0B469; color: black;">피아노</span>, <span style="background-color: #F0B469; color: black;">보컬</span> 은 <span style="color: #00B4D8;">**프로퍼티**</span>로, 
+**밴드** 를 구성할 때 **필요한 속성** **기타**, **드럼**, **피아노**, **보컬** 은 ***프로퍼티***로, 
 
-<span style="background-color: #F0B469; color: black;">play()</span> 라는 연주에 대한 행위는 <span style="color: #00B4D8;">**메서드**</span>로 만들 수 있다.
+**play()** 라는 연주에 대한 행위는 ***메서드***로 만들 수 있다.
 
 <br>
 
-따라서 <span style="color: #FF6464;"><U>**프로토콜**</U></span>이란 것은 이런 <span style="color: #00B4D8;">**프로퍼티**</span>는 꼭 필요하고 이런 <span style="color: #00B4D8;">**메서드**</span>는 꼭 필요해요!
+따라서 <U>***프로토콜***</U>이란 것은 이런 ***프로퍼티***는 꼭 필요하고 이런 ***메서드***는 꼭 필요해요!
 
 라고 해당 기능에 **필요한 요구사항을 선언**해두는 것이다.
 
