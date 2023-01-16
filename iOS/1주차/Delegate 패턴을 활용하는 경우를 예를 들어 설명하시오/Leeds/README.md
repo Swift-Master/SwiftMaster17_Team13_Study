@@ -1,3 +1,27 @@
+<style>
+    .prot {
+        background-color: #FFDAB9;
+        color: black;
+    }
+
+    .prop {
+        background-color: #F0B469;
+        color: black;
+    }
+
+    .text_orange {
+        color: #F0B469;
+    }
+
+    .text_blue {
+        color: #00B4D8;
+    }
+
+    .text_red {
+        color: #FF6464;
+    }
+</style>
+
 # Delegate 패턴을 활용하는 경우를 예를 들어 설명하시오
 
 ## **Delegate Pattern**
@@ -256,26 +280,3 @@ ViewController가 서로 다른 경우
 
 [https://babbab2.tistory.com/174](https://babbab2.tistory.com/174)
 
-<style>
-    .prot {
-        background-color: #FFDAB9;
-        color: black;
-    }
-
-    .prop {
-        background-color: #F0B469;
-        color: black;
-    }
-
-    .text_orange {
-        color: #F0B469;
-    }
-
-    .text_blue {
-        color: #00B4D8;
-    }
-
-    .text_red {
-        color: #FF6464;
-    }
-</style>
