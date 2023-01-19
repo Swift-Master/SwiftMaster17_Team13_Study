@@ -13,9 +13,7 @@
 
 <br>
 
-우리가 여태 써왔던 이름이 있는 함수는 이런 **Named Closure**이다.
-
-하지만 이것을 클로저라고 부르지 않고 그냥 **함수**라고 불렀던 것이다.
+우리가 여태 써왔던 이름이 있는 함수는 이런 **Named Closure**이고, 우리는 그냥 **함수**라고 불렀던 것이다.
 
 ```swift
 func doSomething() {
@@ -40,9 +38,7 @@ let closure = { print("Unnamed Closure") }
 
 <br>
 
-**클로저는 Named Closure & Unnamed Closure 둘다 포함하지만,** 
-
-**보통 Unnamed Closure 를 말한다.**
+**클로저는 Named Closure & Unnamed Closure 둘다 포함하지만, 보통 Unnamed Closure 를 말한다.**
 
 <br>
 
@@ -116,9 +112,7 @@ let driving = { (place: String) -> String in
 
 <br><br>
 
-**함수 때 배운 대로 Parameter의** `place`**는 단독으로 쓰였으니,**
-
-**Argument Label이자, Parameter Name**이라고 생각할 수 있지만,
+**함수 때 배운 대로 Parameter의** `place`**는 단독으로 쓰였으니, Argument Label이자 Parameter Name**이라고 생각할 수 있지만,
 
 <br>
 
@@ -126,7 +120,7 @@ let driving = { (place: String) -> String in
 
 <br>
 
-따라서, name은 **Argument Label이 아니고**, 오직 **Parameter Name** 이다.
+따라서, name은 **Argument Label이 아니고**, 오직 **Parameter Name** 이다. 
 
 클로저를 호출할 때는 **Argument Label을 사용하지 않는다 !!**
 
