@@ -67,7 +67,7 @@ let closure = { print("Unnamed Closure") }
     실행구문
 }
 
-// Closure Head : (Parameters) -> Return
+// Closure Head : (Parameters) -> Return Type
 // Closure Body : 실행구문
 ```
 
