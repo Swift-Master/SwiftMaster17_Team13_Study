@@ -76,8 +76,8 @@ let gender = dictHuman["je"] // nil
 **Optional Type**
 
 1. Type Annotation 이용
-2. Type Inference 이용
-- 타입 추론, ⭐**초기화 되는 값이 무조건 Optional 자료형**⭐ 이여야 된다
+2. Type Inference 이용<br>
+→ 타입 추론, ⭐**초기화 되는 값이 무조건 Optional 자료형**⭐ 이여야 된다
 
 ```swift
 // Type Annotation
