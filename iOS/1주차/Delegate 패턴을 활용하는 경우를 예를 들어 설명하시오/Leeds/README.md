@@ -1,9 +1,9 @@
 # Delegate 패턴을 활용하는 경우를 예를 들어 설명하시오
 
-## **Delegate Pattern**
+### **Delegate Pattern**
 
 위임자를 갖고 있는 객체가 다른 객체에게 자신의 일을 위임하는 형태의 디자인 패턴이다.<br>
-→ delegate 패턴을 통해 특정 기능을 위임하는 것이 가능하다.
+→ delegate 패턴을 통해 특정 기능을 위임하는 것이 가능
 
 <br>
 
