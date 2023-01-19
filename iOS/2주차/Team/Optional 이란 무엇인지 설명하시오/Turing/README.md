@@ -68,7 +68,7 @@ print(optionalName!) //youngjae
 
 그런데.. nill 일때 강제해제하면 뭐가 나와야 한다고 생각해? 한번 보자
 
-![Untitled](%5B2023%2001%2019%5D%20%E1%84%8B%E1%85%A9%E1%86%B8%E1%84%89%E1%85%A7%E1%84%82%E1%85%A5%E1%86%AF(Optional)%20a50d6d1f2f76486ea9ba2549fa6d0121/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/85090866/213413555-ed17357d-2597-4e38-afe1-5213550bc673.png)
 
 엄청난 오류가 떠버려 실제 앱이였다면 끔찍하군 🙂
 
