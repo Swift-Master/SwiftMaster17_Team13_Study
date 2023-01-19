@@ -13,7 +13,9 @@
 
 <br>
 
-우리가 여태 써왔던 이름이 있는 함수는
+우리가 여태 써왔던 이름이 있는 함수는 이런 **Named Closure**이다.
+
+하지만 이것을 클로저라고 부르지 않고 그냥 **함수**라고 불렀던 것이다.
 
 ```swift
 func doSomething() {
@@ -21,19 +23,16 @@ func doSomething() {
 }
 ```
 
-<br>
-
-이런 **Named Closure**이다. 하지만 이것을 클로저라고 부르지 않고 그냥 **함수**라고 불렀던 것이다.
 
 <br>
 
-그리고 이름을 붙이지 않고 사용하는 함수를
+그리고 이름을 붙이지 않고 사용하는 함수를 
+
+**익명함수**, 즉 **Unnamed Closure** 라고 부르는 것이다.
 
 ```swift
 let closure = { print("Unnamed Closure") }
 ```
-
-**익명함수**, 즉 **Unnamed Closure** 라고 부르는 것이다.
 
 <br>
 
@@ -98,7 +97,6 @@ let closure = { () -> () in
 }
 ```
 
-<br>
 
 **Return Type** 이 **있어도, 없어도 생략 가능**하고 **Parameter** 조차 생략 가능하다.
 
@@ -114,11 +112,9 @@ let driving = { (place: String) -> String in
 }
 ```
 
-<br>
-
 **Parameter**와 **Return Type**이 있는 경우는 이렇게 표시한다.
 
-<br>
+<br><br>
 
 **함수 때 배운 대로 Parameter의** `place`**는 단독으로 쓰였으니,**
 
@@ -132,7 +128,7 @@ let driving = { (place: String) -> String in
 
 따라서, name은 **Argument Label이 아니고**, 오직 **Parameter Name** 이다.
 
-클로저를 ****호출할 때는 **Argument Label을 사용하지 않는다 !!**
+클로저를 호출할 때는 **Argument Label을 사용하지 않는다 !!**
 
 <br>
 
@@ -193,7 +189,7 @@ doSomething(closure: { () -> () in
 
 doSomething이란 함수에서 파라미터로 전달받은 함수를 실행시키면 
 
-“ Hello! ”라는 클로저가 실행된다.
+작성한 클로저가 실행된다.
 
 <br>
 
