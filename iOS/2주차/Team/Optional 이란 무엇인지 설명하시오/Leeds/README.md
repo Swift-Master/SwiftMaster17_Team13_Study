@@ -11,8 +11,8 @@ nil을 사용할 수 있는 Type을 **Optional Type**이라 부른다.
 
 <br>
 
-**‘nil’** 이라는 값을 가질 수 있으면 **Optional Type**이고, 
-이것을 선언할 때 타입 옆에 **‘?’** 를 붙인다.
+`nil` 이라는 값을 가질 수 있으면 **Optional Type**이고, 
+이것을 선언할 때 타입 옆에 `?` 를 붙인다.
 
 ```swift
 let name: String? // String? = Optional Type
@@ -28,10 +28,10 @@ let age: Int? // Int? = Optional Type
 
 - 변수에 객체가 할당되지 않은 상태 "**값이 없음**" 을 뜻한다.
     
-    ⇒ nil과 null은 다르다!
+    ⇒ `nil`과 `null`은 다르다!
     
     > Nil : 오류가 났지만, 앱 중단시키는 것 대신 nil을 돌려줄 테니 오류 난 것을 알려줄 때 사용
-    <br>
+    
     > Null : 어떠한 값도 가지지 않고 있다는 뜻
 
 <br> 
@@ -45,9 +45,9 @@ let gender = dictHuman["je"] // nil
 
 <br>
 
-"**name**"이라는 **key**에 접근을 하면 "**je**"이라는 **value**가 잘 뜨지만,
+`name` 이라는 **key**에 접근을 하면 `je` 이라는 **value**가 잘 뜨지만,
 
-"**je**"이라는 **key**에 접근을 했을 때 **dictHuman**에는 "**je**" 이라는 **key**가 존재하지 않기 때문에 nil이 뜸
+`je` 이라는 **key**에 접근을 했을 때 **dictHuman**에는 `je` 이라는 **key**가 존재하지 않기 때문에 `nil`이 뜸
 
 <br>
 
