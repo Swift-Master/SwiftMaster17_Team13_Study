@@ -70,5 +70,7 @@ SomeClass.someTypeMethod()
 
 ## 참고 자료 및  읽을거리
 
-### [static 메서드는 언제 사용할까](https://sujinnaljin.medium.com/swift-static%EA%B3%BC-class-method-property-%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-b336311a923c)
+### [인스턴스 메서드와 타입 메서드의 차이? (스택오버플로우)](https://stackoverflow.com/questions/28551953/the-difference-between-swifts-instance-methods-and-type-methods)
+
+### [타입 메서드는 언제 사용할까](https://sujinnaljin.medium.com/swift-static%EA%B3%BC-class-method-property-%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-b336311a923c)
 ### [swift 공식 가이드북 한글 번역 - 메서드](https://xho95.github.io/swift/language/grammar/method/2020/05/03/Methods.html)
