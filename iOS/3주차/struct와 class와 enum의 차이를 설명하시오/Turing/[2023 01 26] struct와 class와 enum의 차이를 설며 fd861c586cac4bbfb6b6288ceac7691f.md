@@ -14,7 +14,7 @@
 
 아래보면 bibleTeam 인스턴스가 값자체를 가지고 있는것이 아닌 Heap영역의 변수를 참조하고 있다고 보면 되는거야
 
-![Untitled](%5B2023%2001%2026%5D%20struct%E1%84%8B%E1%85%AA%20class%E1%84%8B%E1%85%AA%20enum%E1%84%8B%E1%85%B4%20%E1%84%8E%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%86%E1%85%A7%20fd861c586cac4bbfb6b6288ceac7691f/Untitled.png)
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f882ea4c-b278-458c-b2e0-bf20c87504cf/Untitled.png)
 
 그러면 증명을 해볼게 얍!
 
