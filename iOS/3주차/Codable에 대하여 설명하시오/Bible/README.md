@@ -33,13 +33,13 @@ let join = UserModel(email: "zzagsk@gmail.com", id: "zzagsk", nickname: "Bible")
 do {
     let dataEncode = try? JSONEncoder().encode(join) 
     print(dataEncode)
-		// Optional(61 bytes)
-		// 변환된 Data형식을 그대로 출력했기 때문에 bytes 크기를 출력
+    // Optional(61 bytes)
+    // 변환된 Data형식을 그대로 출력했기 때문에 bytes 크기를 출력
     
     if let dataString = String(data: dataEncode!, encoding: .utf8) {
         print(dataString)
-				// {"email":"zzagsk@gmail.com","id":"zzagsk","nickname":"Bible"}
-				// 변환된 Data 형식을 String으로 형변환하여 출력
+	// {"email":"zzagsk@gmail.com","id":"zzagsk","nickname":"Bible"}
+	// 변환된 Data 형식을 String으로 형변환하여 출력
     }
 }
 ```
