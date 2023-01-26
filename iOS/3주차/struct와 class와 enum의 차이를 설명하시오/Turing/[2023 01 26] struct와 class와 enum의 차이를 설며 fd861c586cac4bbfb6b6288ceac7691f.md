@@ -14,7 +14,7 @@
 
 아래보면 bibleTeam 인스턴스가 값자체를 가지고 있는것이 아닌 Heap영역의 변수를 참조하고 있다고 보면 되는거야
 
-![Untitled11](https://user-images.githubusercontent.com/85090866/214761372-e23b8a38-223f-41bb-9fcd-ac764c908b52.png)
+![스크린샷 2023-01-26 오후 1 56 15](https://user-images.githubusercontent.com/85090866/214761532-4d4a18c1-4970-4c63-8eff-7477b6436093.png)
 
 
 그러면 증명을 해볼게 얍!
