@@ -55,7 +55,8 @@
 
 메모리 구조로 봐보자!
 
-![Untitled 2](https://user-images.githubusercontent.com/85090866/214761184-5eef8075-4afc-4704-afca-1f1bb06ce8e7.png)
+![스크린샷 2023-01-26 오후 1 56 56](https://user-images.githubusercontent.com/85090866/214761615-390998a4-4f50-4779-8c31-1cd4c4a38b73.png)
+
 
 와.. 그냥 값을 복사하는 구나 힙을 사용하지 않는구나 
 
