@@ -62,7 +62,7 @@ let join = UserModel(email: "zzagsk@gmail.com", id: "zzagsk", nickname: "Bible")
 
 var dataDecode: UserModel!
 do {
-		// 서버에서 받아온 데이터 {"email":"zzagsk@gmail.com","id":"zzagsk","nickname":"Bible"}
+    // 서버에서 받아온 데이터 {"email":"zzagsk@gmail.com","id":"zzagsk","nickname":"Bible"}
     let dataEncode = try JSONEncoder().encode(join)
     
     dataDecode = try JSONDecoder().decode(UserModel.self, from: dataEncode)
