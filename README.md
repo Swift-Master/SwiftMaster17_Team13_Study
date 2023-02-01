@@ -80,14 +80,14 @@
 - KVO 동작 방식에 대해 설명하시오.
 - Delegates와 Notification 방식의 차이점에 대해 설명하시오.
 - 멀티 쓰레드로 동작하는 앱을 작성하고 싶을 때 고려할 수 있는 방식들을 설명하시오.
-- MVC 구조에 대해 블록 그림을 그리고, 각 역할과 흐름을 설명하시오.
+- <s>MVC 구조에 대해 블록 그림을 그리고, 각 역할과 흐름을 설명하시오.</s>
 - <s>프로토콜이란 무엇인지 설명하시오.</s>
 - Protocol Oriented Programming과 Object Oriented Programming의 차이점을 설명하시오.
-- Hashable이 무엇이고, Equatable을 왜 상속해야 하는지 설명하시오.
+- <s>Hashable이 무엇이고, Equatable을 왜 상속해야 하는지 설명하시오.</s>
 - mutating 키워드에 대해 설명하시오.
 - 탈출 클로저에 대하여 설명하시오.
 - Extension에 대해 설명하시오.
-- Extension 내부에서 함수를 override할 수 있는지 설명하시오.
+- <s>Extension 내부에서 함수를 override할 수 있는지 설명하시오.</s>
 - 접근 제어자의 종류엔 어떤게 있는지 설명하시오.
 - defer란 무엇인지 설명하시오.
 - defer가 호출되는 순서는 어떻게 되고, defer가 호출되지 않는 경우를 설명하시오.
@@ -97,7 +97,7 @@
 - Result타입에 대해 설명하시오.
 - <s>Codable에 대하여 설명하시오.</s>
 - <s>Closure에 대하여 설명하시오.</s>
-- Closure와 함수와의 관계에 대해 설명하시오.
+- <s>Closure와 함수와의 관계에 대해 설명하시오.</s>
 
 ## ARC
 - ARC란 무엇인지 설명하시오.
@@ -219,3 +219,13 @@ Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 [PAKA](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/3%EC%A3%BC%EC%B0%A8/instance%20%EB%A9%94%EC%84%9C%EB%93%9C%EC%99%80%20class%20%EB%A9%94%EC%84%9C%EB%93%9C%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%84%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4/PAKA)
 - struct와 class와 enum의 차이를 설명하시오. 
 [Turing](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/3%EC%A3%BC%EC%B0%A8/struct%EC%99%80%20class%EC%99%80%20enum%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EB%A5%BC%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4/Turing)
+
+### 4주차
+- Closure와 함수와의 관계에 대해 설명하시오.
+[Turing](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/4%EC%A3%BC%EC%B0%A8/Closure%EC%99%80%20%ED%95%A8%EC%88%98%EC%99%80%EC%9D%98%20%EA%B4%80%EA%B3%84%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4/Turing)
+- Extension 내부에서 함수를 override할 수 있는지 설명하시오.
+[PAKA](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/4%EC%A3%BC%EC%B0%A8/Extension%20%EB%82%B4%EB%B6%80%EC%97%90%EC%84%9C%20%ED%95%A8%EC%88%98%EB%A5%BC%20override%ED%95%A0%20%EC%88%98%20%EC%9E%88%EB%8A%94%EC%A7%80%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4/PAKA)
+- Hashable이 무엇이고, Equatable을 왜 상속해야 하는지 설명하시오.
+[Leeds](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/4%EC%A3%BC%EC%B0%A8/Hashable%EC%9D%B4%20%EB%AC%B4%EC%97%87%EC%9D%B4%EA%B3%A0%2C%20Equatable%EC%9D%84%20%EC%99%9C%20%EC%83%81%EC%86%8D%ED%95%B4%EC%95%BC%20%ED%95%98%EB%8A%94%EC%A7%80%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4/Leeds)
+- MVC 구조에 대해 블록 그림을 그리고, 각 역할과 흐름을 설명하시오.
+[Bible](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/4%EC%A3%BC%EC%B0%A8/MVC%20%EA%B5%AC%EC%A1%B0%EC%97%90%20%EB%8C%80%ED%95%B4%20%EB%B8%94%EB%A1%9D%20%EA%B7%B8%EB%A6%BC%EC%9D%84%20%EA%B7%B8%EB%A6%AC%EA%B3%A0%2C%20%EA%B0%81%20%EC%97%AD%ED%95%A0%EA%B3%BC%20%ED%9D%90%EB%A6%84%EC%9D%84%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4/Bible)
