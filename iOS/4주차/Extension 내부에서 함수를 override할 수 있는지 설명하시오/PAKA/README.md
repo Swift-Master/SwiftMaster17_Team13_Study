@@ -1,5 +1,6 @@
 # Extension 내부에서 함수를 override할 수 있는지 설명하시오.
 
+
 ## Extension
 - 기존 클래스, 구조, 열거형 또는 프로토콜 유형에 새로운 기능을 추가할 수 있습니다.
 - 주로 프로토콜의 구현 메서드들을 Extension에서 구현합니다.
@@ -20,3 +21,4 @@
 ## 참고
 - [Swift 공식 가이드북 - Extension](https://docs.swift.org/swift-book/LanguageGuide/Extensions.html)
 - [스택오버플로우(Overriding methods in Extension)](https://stackoverflow.com/questions/38213286/overriding-methods-in-swift-extensions/38270173)
+
