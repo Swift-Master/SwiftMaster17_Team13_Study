@@ -157,9 +157,9 @@ hash값은 각각 타입의 인스턴스를 식별하는 값으로 유일성을 
 
 ### **정리**
 
-그래서 왜 Hashable은 Equatable을 상속해야 되는거지??
+❓ 그래서 왜 Hashable은 Equatable을 상속해야 되는걸까 ❓
 
-⇒ hashValue는 고유값이어야 하므로 고유값인지 식별해 줄 수 있는 `==` 메서드가 필요하다.
+⇒ hashValue는 고윳값이어야 하므로 고윳값인지 식별해 줄 수 있는 `==` 메서드가 필요하다.
 
 `==` **메서드는 Equatable 프로토콜 안에 들어있기 때문에 Hashable이 Equatable을 상속해야 한다.**
 
