@@ -4,7 +4,7 @@
 ### **Equatable?**
 
 타입끼리 비교(==)연산을 하기 위해서 필수적으로 채택해야 하는 프로토콜
-
+<br>
 ＊ 프로토콜: 특정 역할을 하기 위한 메서드, 프로퍼티, 기타 요구사항 등의 청사진
 
 ⇒ **Equatable을 사용 시 구조체 / 클래스 / 열거형에서 비교연산이 가능하다.**
@@ -175,6 +175,6 @@ hash값은 각각 타입의 인스턴스를 식별하는 값으로 유일성을 
 
 
 
-Equatable, Hashable 대해 이해가 잘 되지 않을 때 읽어보면 좋은 글 ..🙂
+Equatable, Hashable에 대해 이해가 잘 되지 않을 때 읽어보면 좋은 글 ..🙂
 <br>
 [https://medium.com/nerd-for-tech/equatable-hashable-and-comparable-d782449f6ce8](https://medium.com/nerd-for-tech/equatable-hashable-and-comparable-d782449f6ce8)
