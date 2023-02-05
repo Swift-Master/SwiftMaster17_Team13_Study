@@ -163,99 +163,27 @@ func g(@autoclosure pred: () -> Bool ) {
   }
 }
 
-**g( 3 > 1 )**
+g( 3 > 1 )
+//or
+g( { 3 > 1 }() )
 ```
 
-인터넷을 찾아가며… 지연구문을 실습해보려 했지만 아직 이해가 가지 않는다..
+지연속성 관련 paka님이 잘 설명해 주셔서.. 굳굳.. 한번에 이해됐다
 
-이부분은 나중에 추가를.. 하는 것으로..
-
-```swift
-import UIKit
-
-struct Person {
-    var name: String // 이름과 주소를 받을거임
-    
-    var address: String {
-        print("Getting the address")
-        return "광주광역시 북구 오치동 XXX-XX"
-    }
-}
-
-var isDebugMode: Bool = true
-
-func debugLog(message: String) {
-    if isDebugMode {
-        print("Debug log: \(message)")
-    }
-}
-
-let person = Person(name: "YoungJae")
-debugLog(message: person.address)
-
-출력 
-주소 얻기
-Debug log: 광주광역시 북구 오치동 XXX-XX
 ```
+var arr = [ 1,2,3]
+var neverWorksBeforeCalled = {arr.remove(at:0) }
+print(arr.count) // 3 출력,  클로저로 감싸여 있기 떄문에 호출전까지는 평가가 지연됩니다.
+neverWorksBeforeCalled()
+print(arr.count) //2 출력, 호출되어 내부의 표현식이 평가됩니다.
+var worksImmediately = arr.remove(at:0) 
+print(arr.count) // 1 출력, 클로저로 감싸지 않은 표현식은 즉시 평가됩니다.
 
-예상되로 출력이 잘 된다.. 그럼 isDebugMode를 false로 입력하면 어떻게 나올까?
-
-```swift
-import UIKit
-
-struct Person {
-    var name: String // 이름과 주소를 받을거임
-    
-    var address: String {
-        print("Getting the address")
-        return "광주광역시 북구 오치동 XXX-XX"
-    }
-}
-
-var isDebugMode: Bool = false
-
-func debugLog(message: String) {
-    if isDebugMode {
-        print("Debug log: \(message)")
-    }
-}
-
-let person = Person(name: "YoungJae")
-debugLog(message: person.address)
-
-출력 
-주소 얻기
+// 즉 클로저로 감싸게 되면 클로저 호출 전까지는 변하지 않지만 
+// 일반 표현식은 즉시 실행되어 값이 수정됨을 알 수 있다..
 ```
+결국 지연속성은 프로그램의 메모리에 언제 올릴지 코더에게 제어권을 가져올 수 있다는 것이다.
 
-debugLog 호출할때 이미 person.adress에서의 print문이 실행이 됨
-
-그럼 이를 클로저로 해결해보겠음
-
-```swift
-import UIKit
-
-struct Person {
-    var name: String // 이름과 주소를 받을거임
-    
-    var address: String {
-        print("주소 얻기")
-        return "광주광역시 북구 오치동 XXX-XX"
-    }
-}
-
-var isDebugMode: Bool = false
-
-func debugLog(message: () -> String) { //일반 클로저로 실행
-    if isDebugMode {
-        print("Debug log: \(message())") // 함수로 실행
-    }
-}
-
-let person = Person(name: "YoungJae")
-debugLog(message: {person.address})
-
-출력
-```
 
 - @escaping
 
