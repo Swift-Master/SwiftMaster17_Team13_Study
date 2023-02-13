@@ -57,15 +57,35 @@ changed.changeAttribute2(variable : 4) // 컴파일러가 에러를 표시함.
 ### 특징
 - 생성된 인스턴스가 아닌 타입에 귀속된 메서드로서 사용시 해당 타입명으로 호출한다.
 `Int.random(in:1...100) `
-- 메서드 앞에 static 키워드를 붙이는게 일반적이고 클래스의 경우 class 키워드를 붙인다.
+- 인스턴스 메서드와 구분하기 위해 static 키워드를 붙힌다.
+- class 키워드는 해당 타입 메서드를 재정의(override)해서 사용하고 싶을 때 붙힌다. (보통의 언어에서 static 메서드는 재정의 불가능하다)
 
 ```
-class SomeClass {
-  class func someTypeMethod() {
-    // 타입 메소드 구현은 여기에 둠
+class Master {
+    
+    static func basic() {
+        print("ABCDEFG")
+    }
+  class func order() {
+    print("물")
   }
 }
-SomeClass.someTypeMethod()
+
+class Slave: Master {
+    
+/*    override static func basic() {
+         print("외안되")
+     } 
+타입 메서드는 class키워드 없이는 재정의 불가능하다. */
+    
+    override class func order() {
+        print("내가왜")
+    }
+}
+Master.basic() //ABCDEFG
+Master.order() // 물
+Slave.order() // 내가왜
+Slave.basic() // ABCDEFG -> 재정의가 불가능할 뿐, 상속은 문제없이 가능하다.
 ```
 
 ## 참고 자료 및  읽을거리
