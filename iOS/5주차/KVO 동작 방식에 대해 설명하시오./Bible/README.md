@@ -75,7 +75,7 @@ class MyObserver: NSObject {
 
 이제 실제로 값을 감시할 MyObserver 클래스를 만들고, `NSKeyValueObservation` 인스턴스의 `observe(_ keyPath:options:changeHandler:)`를 통해서 감시할 수 있습니다.
 
-\.objectToObserve.myDate는 MyObjectToObserve의 myDate 키 경로를 나타냅니다. 
+`\.objectToObserve.myDate`는 MyObjectToObserve의 myDate 키 경로를 나타냅니다. 
 
 또한 값의 변화를 알지 않아도 되면 options: 를 생략해도 됩니다. 
 그럼 .oldValue와 .newValue의 값은 nil이 됩니다.
