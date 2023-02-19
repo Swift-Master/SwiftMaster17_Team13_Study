@@ -1,0 +1,1 @@
+# Swift Standard Library의 map, filter, reduce, compactMap, flatMap에 대하여 설명하시오.
