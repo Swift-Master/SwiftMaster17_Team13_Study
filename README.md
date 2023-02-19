@@ -66,7 +66,7 @@
 ## Swift
 - <s>struct와 class와 enum의 차이를 설명하시오.</s>
 - <s>class의 성능을 향상 시킬수 있는 방법들을 나열해보시오.</s>
-- Copy On Write는 어떤 방식으로 동작하는지 설명하시오.
+- <s>Copy On Write는 어떤 방식으로 동작하는지 설명하시오.</s>
 - Convenience init에 대해 설명하시오.
 - AnyObject에 대해 설명하시오.
 - <s>Optional 이란 무엇인지 설명하시오.</s>
@@ -86,12 +86,12 @@
 - <s>Hashable이 무엇이고, Equatable을 왜 상속해야 하는지 설명하시오.</s>
 - mutating 키워드에 대해 설명하시오.
 - 탈출 클로저에 대하여 설명하시오.
-- Extension에 대해 설명하시오.
+- <s>Extension에 대해 설명하시오.</s>
 - <s>Extension 내부에서 함수를 override할 수 있는지 설명하시오.</s>
 - <s>접근 제어자의 종류엔 어떤게 있는지 설명하시오.</s>
 - defer란 무엇인지 설명하시오.
 - defer가 호출되는 순서는 어떻게 되고, defer가 호출되지 않는 경우를 설명하시오.
-- property wrapper에 대해서 설명하시오.
+- <s>property wrapper에 대해서 설명하시오.</s>
 - <s>Generic에 대해 설명하시오.</s>
 - some 키워드에 대해 설명하시오.
 - Result타입에 대해 설명하시오.
@@ -110,7 +110,7 @@
 - 순수함수란 무엇인지 설명하시오.
 - 함수형 프로그래밍이 무엇인지 설명하시오.
 - 고차 함수가 무엇인지 설명하시오.
-- Swift Standard Library의 map, filter, reduce, compactMap, flatMap에 대하여 설명하시오.
+- <s>Swift Standard Library의 map, filter, reduce, compactMap, flatMap에 대하여 설명하시오.</s>
 
 ## Architecture
 - MVVM, MVI, Ribs, VIP 등 자신이 알고있는 아키텍쳐를 설명하시오.
@@ -192,6 +192,8 @@ Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 ## Algorithm
 ### 1주차
 - [숫자 짝궁, 크레인 인형뽑기](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/milestone/1)
+### 2주차
+- [체육복](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/milestone/2)
 
 ------------
 ## Interview
@@ -245,3 +247,13 @@ Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 [PAKA](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/5%EC%A3%BC%EC%B0%A8/Delegates%EC%99%80%20Notification%20%EB%B0%A9%EC%8B%9D%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./PAKA)
 - KVO 동작 방식에 대해 설명하시오.
 [Bible](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/5%EC%A3%BC%EC%B0%A8/KVO%20%EB%8F%99%EC%9E%91%20%EB%B0%A9%EC%8B%9D%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Bible)
+
+### 6주차
+- Copy On Write는 어떤 방식으로 동작하는지 설명하시오.
+[PAKA](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/6%EC%A3%BC%EC%B0%A8/Copy%20On%20Write%EB%8A%94%20%EC%96%B4%EB%96%A4%20%EB%B0%A9%EC%8B%9D%EC%9C%BC%EB%A1%9C%20%EB%8F%99%EC%9E%91%ED%95%98%EB%8A%94%EC%A7%80%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./PAKA)
+- Extension에 대해 설명하시오.
+[Turing](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/6%EC%A3%BC%EC%B0%A8/Extension%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Turing)
+- property wrapper에 대해서 설명하시오.
+[Leeds](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/6%EC%A3%BC%EC%B0%A8/property%20wrapper%EC%97%90%20%EB%8C%80%ED%95%B4%EC%84%9C%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Leeds)
+- Swift Standard Library의 map, filter, reduce, compactMap, flatMap에 대하여 설명하시오.
+[Bible](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/6%EC%A3%BC%EC%B0%A8/Swift%20Standard%20Library%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Bible)
