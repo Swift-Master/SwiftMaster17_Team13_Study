@@ -150,7 +150,7 @@ struct Human: Equatable {
 }
 ```
 
-굳굳.. 이렇게 해도 좋지만 실무에서는 아래처럼 하는걸 선언함 
+굳굳.. 이렇게 해도 좋지만 실무에서는 아래처럼 하는걸 선호
 
 ```swift
 struct Human {
