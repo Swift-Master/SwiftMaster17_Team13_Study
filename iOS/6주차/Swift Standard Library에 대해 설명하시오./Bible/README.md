@@ -54,7 +54,7 @@ print(addNumbers) // [2, 3, 4, 5, 6]
 element는 for문에서의 i와 $0와 같이 numbers 요소들에 접근합니다.
 numbers 배열 값들에 1씩 더한 새로운 배열을 아주 간결하게 만들 수 있습니다.
 
-어느정도 감이 잡히시나요!
+어느정도 감이 잡히시나요!  
 map은 요소들에 접근해서 값을 변형한 새로운 변수(위의 예제에서 새로운 배열 변수)를 만들어 낼 때 유용하게 사용할 수 있습니다.
 
 기능적으로 for-in 구문과 상당히 비슷하고 차이가 크지 않지만, map을 사용하면 코드가 더 간결하고 컴파일러 성능면에서 조금 더 우세한 부분이 있습니다.
@@ -104,7 +104,8 @@ print(longStr) // ["DDDD", "FFFFF"]
 
 filter를 쓰지 않았다면 for문과 if문을 섞어서 코드가 좀 더 복잡해보였겠죠!
 
-하지만 성능적으로는 filter가 for문을 사용했을 때와 크게 차이가 나지는 않는 것 같습니다. 성능면에서 이점을 바라기 보다는 가독성이 주는 이점이 더 큰 방식입니다.
+하지만 성능적으로는 filter가 for문을 사용했을 때와 크게 차이가 나지는 않는 것 같습니다.  
+성능면에서 이점을 바라기 보다는 가독성이 주는 이점이 더 큰 방식입니다.
 
 ## reduce
 
@@ -115,13 +116,14 @@ func reduce<Result>(
 ) rethrows -> Result
 ```
 
-reduce는 ‘줄이다’라는 사전적인 의미를 갖는데,
+reduce는 ‘줄이다’라는 사전적인 의미를 갖는데,  
 요소들을 결합, 누적해서 하나의 통합적인 결과를 반환합니다.
 
 모든 값을 하나로 합치는데, 각 요소를 전달 받아 연산을 진행하면 다음 실행 때 이 값을 다시 사용하는 순환 형태를 가집니다.
 
-`initialResult`는 초기 누적값으로 사용 할 값을 의미하고, 
-`nextPartialResult`는 클로저로 두 개의 매개 변수를 받고 있는데 이 중 하나인 `Result`는 initialResult로 전달받은 초기값이거나 이전 순회에서의 최종 결과값을 의미합니다. `Element`는 현재 연산에서 사용 할 요소가 됩니다.
+`initialResult`는 초기 누적값으로 사용 할 값을 의미하고,  
+`nextPartialResult`는 클로저로 두 개의 매개 변수를 받고 있는데 이 중 하나인 `Result`는 initialResult로 전달받은 초기값이거나 이전 순회에서의 최종 결과값을 의미합니다.  
+`Element`는 현재 연산에서 사용 할 요소가 됩니다.
 
 ```swift
 let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -203,7 +205,7 @@ map이나 filter에서는 하나의 값만 사용했기 때문에 $0만 쓰였�
 func compactMap<ElementOfResult>(_ transform: (Self.Element) throws -> ElementOfResult?) rethrows -> [ElementOfResult]
 ```
 
-각 요소로 연산을 진행할 때 nil이 아닌 결과를 반환해주는 map입니다.
+각 요소로 연산을 진행할 때 nil이 아닌 결과를 반환해주는 map입니다.  
 아까 위에서의 map과의 차이점이 있다면 이 compactMap은 옵셔널로 정의된 것을 볼 수 있습니다.
 
 예제로 어떤 차이점이 있는지 봅시다.
