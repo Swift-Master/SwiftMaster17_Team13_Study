@@ -62,8 +62,7 @@ user.lastName = "sundell"
 // property wrapper를 이용한 예제 2
 // n 이하의 수 구하기
 
-@propertyWrapper
-struct OrLess {
+@propertyWrapper struct OrLess {
     private var number = 0
     var wrappedValue: Int {
         get { return number }
