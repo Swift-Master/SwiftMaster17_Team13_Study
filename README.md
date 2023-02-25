@@ -52,8 +52,8 @@
 - URLSession에 대해서 설명하시오.
 - prepareForReuse에 대해서 설명하시오.
 - 다크모드를 지원하는 방법에 대해 설명하시오.
-- ViewController의 생명주기를 설명하시오.
-- TableView와 CollectionView의 차이점을 설명하시오.
+- <s>ViewController의 생명주기를 설명하시오.</s>
+- <s>TableView와 CollectionView의 차이점을 설명하시오.</s>
 
 ## Autolayout
 - 오토레이아웃을 코드로 작성하는 방법은 무엇인가? (3가지)
@@ -72,7 +72,7 @@
 - <s>Optional 이란 무엇인지 설명하시오.</s>
 - <s>Struct 가 무엇이고 어떻게 사용하는지 설명하시오.</s>
 - <s>Subscripts에 대해 설명하시오.</s>
-- String은 왜 subscript로 접근이 안되는지 설명하시오.
+- <s>String은 왜 subscript로 접근이 안되는지 설명하시오.</s>
 - <s>instance 메서드와 class 메서드의 차이점을 설명하시오.</s>
 - <s>class 메서드와 static 메서드의 차이점을 설명하시오.</s>
 - <s>Delegate 패턴을 활용하는 경우를 예를 들어 설명하시오.</s>
@@ -94,7 +94,7 @@
 - <s>property wrapper에 대해서 설명하시오.</s>
 - <s>Generic에 대해 설명하시오.</s>
 - some 키워드에 대해 설명하시오.
-- Result타입에 대해 설명하시오.
+- <s>Result타입에 대해 설명하시오.</s>
 - <s>Codable에 대하여 설명하시오.</s>
 - <s>Closure에 대하여 설명하시오.</s>
 - <s>Closure와 함수와의 관계에 대해 설명하시오.</s>
@@ -187,6 +187,7 @@ Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 ### 예정
 
 - [awesome-interview-question](https://github.com/DopplerHQ/awesome-interview-questions)
+- [Tech-Interview by VSFe](https://github.com/VSFe/Tech-Interview)
 
 -----------
 ## Algorithm
@@ -257,3 +258,13 @@ Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 [Leeds](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/6%EC%A3%BC%EC%B0%A8/property%20wrapper%EC%97%90%20%EB%8C%80%ED%95%B4%EC%84%9C%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Leeds)
 - Swift Standard Library의 map, filter, reduce, compactMap, flatMap에 대하여 설명하시오.
 [Bible](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/6%EC%A3%BC%EC%B0%A8/Swift%20Standard%20Library%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Bible)
+
+### 7주차
+- Result타입에 대해 설명하시오.
+[Bible](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/7%EC%A3%BC%EC%B0%A8/Result%ED%83%80%EC%9E%85%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Bible)
+- String은 왜 subscript로 접근이 안되는지 설명하시오.
+[Turing](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/7%EC%A3%BC%EC%B0%A8/String%EC%9D%80%20%EC%99%9C%20subscript%EB%A1%9C%20%EC%A0%91%EA%B7%BC%EC%9D%B4%20%EC%95%88%EB%90%98%EB%8A%94%EC%A7%80%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Turing)
+- TableView와 CollectionView의 차이점을 설명하시오.
+[PAKA](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/7%EC%A3%BC%EC%B0%A8/TableView%EC%99%80%20CollectionView%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%84%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4/PAKA)
+- ViewController의 생명주기를 설명하시오.
+[Leeds](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/7%EC%A3%BC%EC%B0%A8/ViewController%EC%9D%98%20%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0%EB%A5%BC%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Leeds)
