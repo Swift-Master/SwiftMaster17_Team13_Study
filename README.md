@@ -28,7 +28,7 @@
 - App의 Not running, Inactive, Active, Background, Suspended에 대해 설명하시오.
 ###
 - NSOperationQueue 와 GCD Queue 의 차이점을 설명하시오.
-- GCD API 동작 방식과 필요성에 대해 설명하시오.
+- <s>GCD API 동작 방식과 필요성에 대해 설명하시오.</s>
 - Global DispatchQueue 의 Qos 에는 어떤 종류가 있는지, 각각 어떤 의미인지 설명하시오.
 ###
 - iOS 앱을 만들고, User Interface를 구성하는 데 필수적인 프레임워크 이름은 무엇인가?
@@ -39,7 +39,7 @@
 - App Bundle의 구조와 역할에 대해 설명하시오.
 - 모든 View Controller 객체의 상위 클래스는 무엇이고 그 역할은 무엇인가?
 - 자신만의 Custom View를 만들려면 어떻게 해야하는지 설명하시오.
-- View 객체에 대해 설명하시오.
+- <s>View 객체에 대해 설명하시오.</s>
 - UIView 에서 Layer 객체는 무엇이고 어떤 역할을 담당하는지 설명하시오.
 - UIWindow 객체의 역할은 무엇인가?
 - UINavigationController 의 역할이 무엇인지 설명하시오.
@@ -49,14 +49,14 @@
 - stackView의 장점과 단점에 대해서 설명하시오.
 ###
 - NSCache와 딕셔너리로 캐시를 구성했을때의 차이를 설명하시오.
-- URLSession에 대해서 설명하시오.
+- <s>URLSession에 대해서 설명하시오.</s>
 - prepareForReuse에 대해서 설명하시오.
 - 다크모드를 지원하는 방법에 대해 설명하시오.
 - <s>ViewController의 생명주기를 설명하시오.</s>
 - <s>TableView와 CollectionView의 차이점을 설명하시오.</s>
 
 ## Autolayout
-- 오토레이아웃을 코드로 작성하는 방법은 무엇인가? (3가지)
+- <s>오토레이아웃을 코드로 작성하는 방법은 무엇인가? (3가지)</s>
 - hugging, resistance에 대해서 설명하시오.
 - Intrinsic Size에 대해서 설명하시오.
 - 스토리보드를 이용했을때의 장단점을 설명하시오.
@@ -197,6 +197,8 @@ Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 - [체육복](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/milestone/2)
 ### 3주차
 - [다트 게임](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/milestone/3)
+### 4주차
+- [성격 유형 검사](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/milestone/4)
 
 ------------
 ## Interview
@@ -271,3 +273,13 @@ Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 [PAKA](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/7%EC%A3%BC%EC%B0%A8/TableView%EC%99%80%20CollectionView%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%84%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4/PAKA)
 - ViewController의 생명주기를 설명하시오.
 [Leeds](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/7%EC%A3%BC%EC%B0%A8/ViewController%EC%9D%98%20%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0%EB%A5%BC%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Leeds)
+
+### 8주차
+- GCD API 동작 방식과 필요성에 대해 설명하시오.
+[PAKA](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/8%EC%A3%BC%EC%B0%A8/GCD%20API%20%EB%8F%99%EC%9E%91%20%EB%B0%A9%EC%8B%9D%EA%B3%BC%20%ED%95%84%EC%9A%94%EC%84%B1%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./PAKA)
+- URLSession에 대해서 설명하시오.
+[Bible](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/8%EC%A3%BC%EC%B0%A8/URLSession%EC%97%90%20%EB%8C%80%ED%95%B4%EC%84%9C%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Bible)
+- View 객체에 대해 설명하시오.
+[Turing](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/8%EC%A3%BC%EC%B0%A8/View%20%EA%B0%9D%EC%B2%B4%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Turing)
+- 오토레이아웃을 코드로 작성하는 방법은 무엇인가? (3가지)
+[Leeds](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/8%EC%A3%BC%EC%B0%A8/%EC%98%A4%ED%86%A0%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83%EC%9D%84%20%EC%BD%94%EB%93%9C%EB%A1%9C%20%EC%9E%91%EC%84%B1%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95%EC%9D%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%3F%20(3%EA%B0%80%EC%A7%80)/Leeds)
