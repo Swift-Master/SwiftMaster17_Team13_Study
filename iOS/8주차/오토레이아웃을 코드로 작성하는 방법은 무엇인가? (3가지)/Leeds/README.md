@@ -108,11 +108,7 @@ let constraints2 = NSLayoutConstraint.constraints(withVisualFormat: "V:|-(gap)-[
 NSLayoutConstraint.activate(constraints2)
 ```
 
-<br>
-
----
-
-<br>
+<br><br>
 
 최근에는 [Layout Anchor를 사용하는 것을 권장](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/WorkingwithConstraintsinInterfaceBuidler.html#//apple_ref/doc/uid/TP40010853-CH10-SW1)한다고 합니다!
 
