@@ -31,9 +31,9 @@
 - <s>GCD API 동작 방식과 필요성에 대해 설명하시오.</s>
 - Global DispatchQueue 의 Qos 에는 어떤 종류가 있는지, 각각 어떤 의미인지 설명하시오.
 ###
-- iOS 앱을 만들고, User Interface를 구성하는 데 필수적인 프레임워크 이름은 무엇인가?
+- <s>iOS 앱을 만들고, User Interface를 구성하는 데 필수적인 프레임워크 이름은 무엇인가?</s>
 - Foundation Kit은 무엇이고 포함되어 있는 클래스들은 어떤 것이 있는지 설명하시오.
-- Delegate란 무엇인지 설명하고, retain 되는지 안되는지 그 이유를 함께 설명하시오.
+- <s>Delegate란 무엇인지 설명하고, retain 되는지 안되는지 그 이유를 함께 설명하시오.</s>
 - NotificationCenter 동작 방식과 활용 방안에 대해 설명하시오.
 - UIKit 클래스들을 다룰 때 꼭 처리해야하는 애플리케이션 쓰레드 이름은 무엇인가?
 - App Bundle의 구조와 역할에 대해 설명하시오.
@@ -50,7 +50,7 @@
 ###
 - NSCache와 딕셔너리로 캐시를 구성했을때의 차이를 설명하시오.
 - <s>URLSession에 대해서 설명하시오.</s>
-- prepareForReuse에 대해서 설명하시오.
+- <s>prepareForReuse에 대해서 설명하시오.</s>
 - 다크모드를 지원하는 방법에 대해 설명하시오.
 - <s>ViewController의 생명주기를 설명하시오.</s>
 - <s>TableView와 CollectionView의 차이점을 설명하시오.</s>
@@ -85,7 +85,7 @@
 - Protocol Oriented Programming과 Object Oriented Programming의 차이점을 설명하시오.
 - <s>Hashable이 무엇이고, Equatable을 왜 상속해야 하는지 설명하시오.</s>
 - mutating 키워드에 대해 설명하시오.
-- 탈출 클로저에 대하여 설명하시오.
+- <s>탈출 클로저에 대하여 설명하시오.</s>
 - <s>Extension에 대해 설명하시오.</s>
 - <s>Extension 내부에서 함수를 override할 수 있는지 설명하시오.</s>
 - <s>접근 제어자의 종류엔 어떤게 있는지 설명하시오.</s>
