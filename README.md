@@ -199,6 +199,8 @@ Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 - [다트 게임](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/milestone/3)
 ### 4주차
 - [성격 유형 검사](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/milestone/4)
+### 5주차
+- [실패율](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/milestone/5)
 
 ------------
 ## Interview
@@ -283,3 +285,13 @@ Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 [Turing](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/8%EC%A3%BC%EC%B0%A8/View%20%EA%B0%9D%EC%B2%B4%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Turing)
 - 오토레이아웃을 코드로 작성하는 방법은 무엇인가? (3가지)
 [Leeds](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/8%EC%A3%BC%EC%B0%A8/%EC%98%A4%ED%86%A0%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83%EC%9D%84%20%EC%BD%94%EB%93%9C%EB%A1%9C%20%EC%9E%91%EC%84%B1%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95%EC%9D%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%3F%20(3%EA%B0%80%EC%A7%80)/Leeds)
+
+### 9주차
+- Delegate란 무엇인지 설명하고, retain 되는지 안되는지 그 이유를 함께 설명하시오.
+[Turing](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/9주차/Delegate란%20무엇인지%20설명하고%2C%20retain%20되는지%20안되는지%20그%20이유를%20함께%20설명하시오./Turing)
+- iOS 앱을 만들고, User Interface를 구성하는 데 필수적인 프레임워크 이름은 무엇인가?
+[Leeds](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/9주차/iOS%20앱을%20만들고%2C%20User%20Interface를%20구성하는%20데%20필수적인%20프레임워크%20이름은%20무엇인가%3F/Leeds)
+- prepareForReuse에 대해서 설명하시오.
+[PAKA](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/9주차/prepareForReuse에%20대해서%20설명하시오./PAKA)
+- 탈출 클로저에 대하여 설명하시오.
+[Bible](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/9주차/탈출%20클로저에%20대하여%20설명하시오./Bible)
