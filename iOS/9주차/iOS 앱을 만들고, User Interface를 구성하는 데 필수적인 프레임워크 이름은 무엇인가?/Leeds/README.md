@@ -16,7 +16,7 @@ A. **UIKit**
 
 <br>
 
-그렇기 때문에 자주 사용하는 `UIViewController`, `UIView`, `UIImage` 등 앞에 `UI`가 붙는 클래스들을 사용하려면 **반드시 `UIKit`을 import 해야한다.**
+그렇기 때문에 자주 사용하는 `UIViewController`, `UIView`, `UIImage` 등 앞에 `UI`가 붙는 클래스들을 사용하려면 <U>**반드시 `UIKit`을 import 해야한다.**</U>
 
 <br>
 
