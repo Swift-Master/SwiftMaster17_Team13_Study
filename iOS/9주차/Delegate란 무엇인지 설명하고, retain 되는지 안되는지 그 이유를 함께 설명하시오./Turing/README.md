@@ -44,11 +44,15 @@ class MyViewController: UIViewController, MyDelegate {
 ```
 
 1. 위 코드에서 MyClass는 MyDelegate 프로토콜을 채택한 델리게이트 객체를 가지고 있습니다. MyClass의 someMethod()에서는 delegate를 통해 델리게이트 메서드인 didTapButton()을 호출합니다.
-MyViewController는 MyDelegate를 구현하고 있으며, viewDidLoad()에서 MyClass의 delegate를 self로 설정합니다. 이제 MyClass에서 delegate를 통해 didTapButton()을 호출하면, MyViewController의 didTapButton() 메서드가 실행됩니다
+MyViewController는 MyDelegate를 구현하고 있으며, viewDidLoad()에서 MyClass의 delegate를 self로 설정합니다. 이제 MyClass에서 delegate를 통해 didTapButton()을 호출하면, MyViewController의 didTapButton() 메서드가 실행됩니다.
 
-2. retain 되는지 안되는지 그 이유?
-    1.Swift에서 delegate 패턴을 구현할 때, delegate 속성을 weak으로 선언해야 하는 이유는 retain cycle을 방지하기 위해서입니다. 만약 delegate를 strong으로 선언하면, delegate 객체는 MyClass나 MyViewController 객체와 같이 서로를 강한 참조하게 됩니다. 이 때, MyClass와 MyViewController가 서로 참조하면서 메모리 누수가 발생할 수 있습니다. 이를 retain cycle이라고 합니다. 하지만 delegate를 weak으로 선언하면, MyClass나 MyViewController 객체가 delegate를 참조하는 것과 달리, delegate가 MyClass나 MyViewController 객체를 참조하지 않습니다. 이는 retain cycle이 발생하지 않도록 해줍니다.따라서, Swift에서 delegate 패턴을 구현할 때는 delegate 속성을 weak으로 선언해주어야 메모리 누수를 방지할 수 있습니다.
-다시 한 번 위의 예제를 가져오겠습니다.
+2. retain 되는지 안되는지 그 이유? 
+    1. Swift에서 delegate 패턴을 구현할 때, delegate 속성을 weak으로 선언해야 하는 이유는 retain cycle을 방지하기 위해서입니다.
+    만약 delegate를 strong으로 선언하면, delegate 객체는 MyClass나 MyViewController 객체와 같이 서로를 강한 참조하게 됩니다. 
+    이 때, MyClass와 MyViewController가 서로 참조하면서 메모리 누수가 발생할 수 있습니다. 이를 retain cycle이라고 합니다. 
+    하지만 delegate를 weak으로 선언하면, MyClass나 MyViewController 객체가 delegate를 참조하는 것과 달리, delegate가 MyClass나 MyViewController 객체를 참조하지 않습니다. 이는 retain cycle이 발생하지 않도록 해줍니다.
+    따라서, Swift에서 delegate 패턴을 구현할 때는 delegate 속성을 weak으로 선언해주어야 메모리 누수를 방지할 수 있습니다.
+    다시 한 번 위의 예제를 가져오겠습니다.
     
     
 
