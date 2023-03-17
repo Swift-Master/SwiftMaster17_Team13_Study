@@ -68,7 +68,7 @@ runNonEscapingClosure(closure: printHelloClosure)
 closureVariable() // 클로저 실행\n Hello!\n
 ```
 
-탈출 클로저는 `**GCD 비동기**` 처리 방식으로 작성할 때와 GCD가 아닌 `**completionHandler**` 로 사용되면  `@escaping` 키워드를 붙여서 사용하면 됩니다.
+탈출 클로저는 **`GCD 비동기`** 처리 방식으로 작성할 때와 GCD가 아닌 **`completionHandler`** 로 사용되면  `@escaping` 키워드를 붙여서 사용하면 됩니다.
 
 completionHandler ⇒ 완료 핸들러 이름 그대로 비동기적인 작업이 완료되었을 때 실행되는 클로저를 말합니다. 콜백 함수를 생각하면 됩니다.
 
