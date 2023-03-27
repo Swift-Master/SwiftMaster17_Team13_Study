@@ -34,3 +34,20 @@
 	- 단, 전제 조건으로 view의 layout이 재조정이 필요해야 합니다.
 		- setNeedsLayout이나 Automatic refresh triggers를 통해 레이아웃의 업데이트를 필요로 하는 작업  이후에 호출함으로써 즉시 레이아웃을 변경할 수 있습니다!
 		- 응용으로, 레이아웃 업데이트가 필요한 상황에서 layoutIfNeeded를 두번 호출시, 마지막 호출은 아무 동작도 하지 않습니다😄
+## Display
+- 색, 텍스트, 이미지, Core Graphics 같이 Layout을 제외한 뷰의 속성들
+- 레이아웃과 유사하게 자동 업데이트 방식과 명시적 업데이트 방식이 존재합니다.
+### draw(_:)
+- 레이아웃의 `layoutSubviews()`와 같은 역할을 한다고 생각하면 됩니다.
+- 단, Display가 자식 뷰와 관련된 속성을 포함하지 않기 때문에, 자식 뷰들의 draw를 호출하지는 않습니다.
+- 마찬가지로 직접 호출방식은 좋지 않습니다.
+	#### setNeedsDisplay()
+	- setNeedsLayout()과 유사한 역할을 하는 메서드입니다.
+	- view 내부의 `dirty flag`를 활성화시켜 다음 update 사이클 때 활성화된 뷰들을 다시 그리게 합니다.
+	- 파라미터에 `rect`를 전달함으로써, 뷰의 특정 부분만 변경되도록 조절할 수도 있습니다.
+	- 대부분의 UI 컴포넌트 변경은 다음 update 사이클 때 draw(_:)를 호출하지만,  컴포넌트(UIKit 클래스를 말합니다)와 직접 관련은 없으나 그려줄 필요가 없다면 이 메서드를 사용하여 다시 그리도록 유도한다.
+	#### displayIfNeeded() : 는 없습니다!😳
+	- 레이아웃과 달리, display는 다음 update 사이클에 그려지더라도 문제가 없다고 하네요 
+
+## 참고 링크
+- [ios 레이아웃의 미스터리를 파헤치다](https://medium.com/mj-studio/%EB%B2%88%EC%97%AD-ios-%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83%EC%9D%98-%EB%AF%B8%EC%8A%A4%ED%84%B0%EB%A6%AC%EB%A5%BC-%ED%8C%8C%ED%97%A4%EC%B9%98%EB%8B%A4-2cfa99e942f9) : 설명하지 않은 Constraint에 관련된 내용도 포함되어 있어 정독을 추천드립니다!
