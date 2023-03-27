@@ -4,7 +4,9 @@
 - 유저의 input 이벤트를 이벤트 대기열에 추가
 - 애플리케이션 객체가 대기열에서 이벤트를 하나씩 꺼내 해석하고 Core object 내부 핸들러를 호출하여 다른 UI객체로 전달, 개발자의 코드를 실행
 - 다시 run loop로 복귀해 update 사이클(view 재배치 및 새로 그리기) 시작
+
 <img width="694" alt="스크린샷 2023-03-27 오후 10 33 27" src="https://user-images.githubusercontent.com/116094622/227953382-aacef49f-e759-42cd-81cf-be9db9b2a203.png">
+
 - 이 사이클은 1/60초 안에 완료되지만, 기본적으로 main run loop의 작업은 비동기로 수행됩니다. 따라서 핸들러를 통해 호출된 코드가 view의 수정을 요청하더라도, 이미 update 사이클이 먼저 수행되어 그 다음 update 사이클이 되야 view가 수정될 것입니다.
 - 이런 시점 차이로 인해, view의 layout, content를 이용한 조작이나 연산이 필요한 경우 과거 값을 참조하게 될 수도 있습니다!
 ## 레이아웃
