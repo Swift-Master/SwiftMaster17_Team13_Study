@@ -206,3 +206,8 @@ Foundation Kit은 Cocoa, Cocoa Touch Freamework의 요소 중 하나이며 Objec
 이 외에도 다양한 클래스와 기능을 제공하고 있고,  
 Swift로 개발을 하면서 NSObject를 상속받는 클래스의 기능이 필요할 때 import Foundation하여 사용하면 될 것 같습니다.  
 (참고로 UIKit 내부에 import Foundation이 되어있어서 import UIKit을 한 상태에서는 import Foundation을 따로 하지 않아도 됩니다!)
+
+##### 참고
+- [Cocoa](https://developer.apple.com/library/archive/documentation/General/Conceptual/DevPedia-CocoaCore/Cocoa.html)
+- [Founddation](https://developer.apple.com/documentation/foundation)
+- [UIKit / Foundation / Cocoa / Cocoa Touch -  개발자 소들이](https://babbab2.tistory.com/51)
