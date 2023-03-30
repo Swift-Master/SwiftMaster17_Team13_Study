@@ -202,6 +202,7 @@ Foundation Kit은 Cocoa, Cocoa Touch Freamework의 요소 중 하나이며 Objec
 - NSDate, NSDateComponents 클래스 : 날짜와 시간 연산, 포맷 변환, 타임존 처리 등 기능 수행
 - NSFileManager 클래스 : 파일 및 디렉토리 생성, 삭제, 이동의 작업 수행
 - NSURLSession, NSURLRequest 클래스 : 네트워크 연결 및 데이터 송수신과 관련된 기능 제공
+
 이 외에도 다양한 클래스와 기능을 제공하고 있고,  
 Swift로 개발을 하면서 NSObject를 상속받는 클래스의 기능이 필요할 때 import Foundation하여 사용하면 될 것 같습니다.  
 (참고로 UIKit 내부에 import Foundation이 되어있어서 import UIKit을 한 상태에서는 import Foundation을 따로 하지 않아도 됩니다!)
