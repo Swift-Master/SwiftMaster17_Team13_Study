@@ -23,7 +23,7 @@
 - 앱이 foreground에 있을 때와 background에 있을 때 어떤 제약사항이 있나요?
 - 상태 변화에 따라 다른 동작을 처리하기 위한 앱델리게이트 메서드들을 설명하시오.
 - 앱이 In-Active 상태가 되는 시나리오를 설명하시오.
-- scene delegate에 대해 설명하시오.
+- <s>scene delegate에 대해 설명하시오.</s>
 - UIApplication 객체의 컨트롤러 역할은 어디에 구현해야 하는가?
 - App의 Not running, Inactive, Active, Background, Suspended에 대해 설명하시오.
 ###
@@ -35,7 +35,7 @@
 - <s>Foundation Kit은 무엇이고 포함되어 있는 클래스들은 어떤 것이 있는지 설명하시오.</s>
 - <s>Delegate란 무엇인지 설명하고, retain 되는지 안되는지 그 이유를 함께 설명하시오.</s>
 - NotificationCenter 동작 방식과 활용 방안에 대해 설명하시오.
-- UIKit 클래스들을 다룰 때 꼭 처리해야하는 애플리케이션 쓰레드 이름은 무엇인가?
+- <s>UIKit 클래스들을 다룰 때 꼭 처리해야하는 애플리케이션 쓰레드 이름은 무엇인가?</s>
 - App Bundle의 구조와 역할에 대해 설명하시오.
 - 모든 View Controller 객체의 상위 클래스는 무엇이고 그 역할은 무엇인가?
 - 자신만의 Custom View를 만들려면 어떻게 해야하는지 설명하시오.
@@ -89,8 +89,8 @@
 - <s>Extension에 대해 설명하시오.</s>
 - <s>Extension 내부에서 함수를 override할 수 있는지 설명하시오.</s>
 - <s>접근 제어자의 종류엔 어떤게 있는지 설명하시오.</s>
-- defer란 무엇인지 설명하시오.
-- defer가 호출되는 순서는 어떻게 되고, defer가 호출되지 않는 경우를 설명하시오.
+- <s>defer란 무엇인지 설명하시오.</s>
+- <s>defer가 호출되는 순서는 어떻게 되고, defer가 호출되지 않는 경우를 설명하시오.</s>
 - <s>property wrapper에 대해서 설명하시오.</s>
 - <s>Generic에 대해 설명하시오.</s>
 - some 키워드에 대해 설명하시오.
@@ -203,7 +203,8 @@ Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 - [실패율](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/milestone/5)
 ### 6주차
 - [숫자 문자열과 영단어, 비밀지도](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/milestone/6)
-
+### 7주차
+- [개인정보 수집 유효기간](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/milestone/7)
 ------------
 ## Interview
 
@@ -307,3 +308,11 @@ Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 [PAKA](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/10%EC%A3%BC%EC%B0%A8/setNeedsLayout%EC%99%80%20setNeedsDisplay%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./PAKA)
 - stackView의 장점과 단점에 대해 설명하시오
 [Leeds](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/10%EC%A3%BC%EC%B0%A8/stackView%EC%9D%98%20%EC%9E%A5%EC%A0%90%EA%B3%BC%20%EB%8B%A8%EC%A0%90%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Leeds)
+
+### 11주차
+- UIKit 클래스들을 다룰 때 꼭 처리해야하는 애플리케이션 쓰레드 이름은 무엇인가?
+[Bible](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/11%EC%A3%BC%EC%B0%A8/UIKit%20%ED%81%B4%EB%9E%98%EC%8A%A4%EB%93%A4%EC%9D%84%20%EB%8B%A4%EB%A3%B0%20%EB%95%8C%20%EA%BC%AD%20%EC%B2%98%EB%A6%AC%ED%95%B4%EC%95%BC%ED%95%98%EB%8A%94%20%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%20%EC%93%B0%EB%A0%88%EB%93%9C%20%EC%9D%B4%EB%A6%84%EC%9D%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%3F/Bible)
+- defer란 무엇인지 설명하고, defer가 호출되는 순서는 어떻게 되며 호출되지 않는 경우를 설명하시오.
+[PAKA](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/11%EC%A3%BC%EC%B0%A8/defer%EB%9E%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EC%A7%80%20%EC%84%A4%EB%AA%85%ED%95%98%EA%B3%A0%2C%20defer%EA%B0%80%20%ED%98%B8%EC%B6%9C%EB%90%98%EB%8A%94%20%EC%88%9C%EC%84%9C%EB%8A%94%20%EC%96%B4%EB%96%BB%EA%B2%8C%20%EB%90%98%EB%A9%B0%20%20%ED%98%B8%EC%B6%9C%EB%90%98%EC%A7%80%20%EC%95%8A%EB%8A%94%20%EA%B2%BD%EC%9A%B0%EB%A5%BC%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./PAKA)
+- scene delegate에 대해 설명하시오.
+[Leeds](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/11%EC%A3%BC%EC%B0%A8/scene%20delegate%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Leeds)
