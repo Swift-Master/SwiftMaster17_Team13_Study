@@ -25,9 +25,9 @@
 - 앱이 In-Active 상태가 되는 시나리오를 설명하시오.
 - <s>scene delegate에 대해 설명하시오.</s>
 - UIApplication 객체의 컨트롤러 역할은 어디에 구현해야 하는가?
-- App의 Not running, Inactive, Active, Background, Suspended에 대해 설명하시오.
+- <s>App의 Not running, Inactive, Active, Background, Suspended에 대해 설명하시오.</s>
 ###
-- NSOperationQueue 와 GCD Queue 의 차이점을 설명하시오.
+- <s>NSOperationQueue 와 GCD Queue 의 차이점을 설명하시오.</s>
 - <s>GCD API 동작 방식과 필요성에 대해 설명하시오.</s>
 - Global DispatchQueue 의 Qos 에는 어떤 종류가 있는지, 각각 어떤 의미인지 설명하시오.
 ###
@@ -82,7 +82,7 @@
 - <s>멀티 쓰레드로 동작하는 앱을 작성하고 싶을 때 고려할 수 있는 방식들을 설명하시오.</s>
 - <s>MVC 구조에 대해 블록 그림을 그리고, 각 역할과 흐름을 설명하시오.</s>
 - <s>프로토콜이란 무엇인지 설명하시오.</s>
-- Protocol Oriented Programming과 Object Oriented Programming의 차이점을 설명하시오.
+- <s>Protocol Oriented Programming과 Object Oriented Programming의 차이점을 설명하시오.</s>
 - <s>Hashable이 무엇이고, Equatable을 왜 상속해야 하는지 설명하시오.</s>
 - mutating 키워드에 대해 설명하시오.
 - <s>탈출 클로저에 대하여 설명하시오.</s>
@@ -316,3 +316,11 @@ Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 [PAKA](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/11%EC%A3%BC%EC%B0%A8/defer%EB%9E%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EC%A7%80%20%EC%84%A4%EB%AA%85%ED%95%98%EA%B3%A0%2C%20defer%EA%B0%80%20%ED%98%B8%EC%B6%9C%EB%90%98%EB%8A%94%20%EC%88%9C%EC%84%9C%EB%8A%94%20%EC%96%B4%EB%96%BB%EA%B2%8C%20%EB%90%98%EB%A9%B0%20%20%ED%98%B8%EC%B6%9C%EB%90%98%EC%A7%80%20%EC%95%8A%EB%8A%94%20%EA%B2%BD%EC%9A%B0%EB%A5%BC%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./PAKA)
 - scene delegate에 대해 설명하시오.
 [Leeds](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/11%EC%A3%BC%EC%B0%A8/scene%20delegate%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Leeds)
+
+### 12주차
+- App의 Not running, Inactive, Active, Background, Suspended에 대해 설명하시오.
+[Bible](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/12%EC%A3%BC%EC%B0%A8/App%EC%9D%98%20Not%20running%2C%20Inactive%2C%20Active%2C%20Background%2C%20Suspended%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Bible)
+- NSOperationQueue 와 GCD Queue 의 차이점을 설명하시오.
+[PAKA](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/12%EC%A3%BC%EC%B0%A8/NSOperationQueue%20%EC%99%80%20GCD%20Queue%20%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%84%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./PAKA)
+- Protocol Oriented Programming과 Object Oriented Programming의 차이점을 설명하시오.
+[Leeds](https://github.com/OpenBible3438/SwiftMaster17_Team13_Study/tree/main/iOS/12%EC%A3%BC%EC%B0%A8/Protocol%20Oriented%20Programming%EA%B3%BC%20Object%20Oriented%20Programming%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%84%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Leeds)
