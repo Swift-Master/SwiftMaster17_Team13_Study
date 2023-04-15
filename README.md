@@ -15,13 +15,13 @@
 - Bounds 와 Frame 의 차이점을 설명하시오.
 - 실제 디바이스가 없을 경우 개발 환경에서 할 수 있는 것과 없는 것을 설명하시오.
 - 앱의 콘텐츠나 데이터 자체를 저장/보관하는 특별한 객체를 무엇이라고 하는가?
-- 앱 화면의 콘텐츠를 표시하는 로직과 관리를 담당하는 객체를 무엇이라고 하는가?
+- [앱 화면의 콘텐츠를 표시하는 로직과 관리를 담당하는 객체를 무엇이라고 하는가?](./iOS/13%EC%A3%BC%EC%B0%A8/%EC%95%B1%20%ED%99%94%EB%A9%B4%EC%9D%98%20%EC%BD%98%ED%85%90%EC%B8%A0%EB%A5%BC%20%ED%91%9C%EC%8B%9C%ED%95%98%EB%8A%94%20%EB%A1%9C%EC%A7%81%EA%B3%BC%20%EA%B4%80%EB%A6%AC%EB%A5%BC%20%EB%8B%B4%EB%8B%B9%ED%95%98%EB%8A%94%20%EA%B0%9D%EC%B2%B4%EB%A5%BC%20%EB%AC%B4%EC%97%87%EC%9D%B4%EB%9D%BC%EA%B3%A0%20%ED%95%98%EB%8A%94%EA%B0%80%3F/Bible/)
 - App thinning에 대해서 설명하시오.
 ###
 - 앱이 시작할 때 main.c 에 있는 UIApplicationMain 함수에 의해서 생성되는 객체는 무엇인가?
 - @Main에 대해서 설명하시오.
 - 앱이 foreground에 있을 때와 background에 있을 때 어떤 제약사항이 있나요?
-- [상태 변화에 따라 다른 동작을 처리하기 위한 앱델리게이트 메서드들을 설명하시오.](./iOS/13%EC%A3%BC%EC%B0%A8/)
+- [상태 변화에 따라 다른 동작을 처리하기 위한 앱델리게이트 메서드들을 설명하시오.](./iOS/13%EC%A3%BC%EC%B0%A8/%EC%83%81%ED%83%9C%20%EB%B3%80%ED%99%94%EC%97%90%20%EB%94%B0%EB%9D%BC%20%EB%8B%A4%EB%A5%B8%20%EB%8F%99%EC%9E%91%EC%9D%84%20%EC%B2%98%EB%A6%AC%ED%95%98%EA%B8%B0%20%EC%9C%84%ED%95%9C%20%EC%95%B1%EB%8D%B8%EB%A6%AC%EA%B2%8C%EC%9D%B4%ED%8A%B8%20%EB%A9%94%EC%84%9C%EB%93%9C%EB%93%A4%EC%9D%84%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./PAKA/)
 - 앱이 In-Active 상태가 되는 시나리오를 설명하시오.
 - [scene delegate에 대해 설명하시오.](./iOS/11%EC%A3%BC%EC%B0%A8/scene%20delegate%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Leeds/)
 - UIApplication 객체의 컨트롤러 역할은 어디에 구현해야 하는가?
@@ -44,7 +44,7 @@
 - UIWindow 객체의 역할은 무엇인가?
 - UINavigationController 의 역할이 무엇인지 설명하시오.
 - [TableView를 동작 방식과 화면에 Cell을 출력하기 위해 최소한 구현해야 하는 DataSource 메서드를 설명하시오.](./iOS/10%EC%A3%BC%EC%B0%A8/TableView%EB%A5%BC%20%EB%8F%99%EC%9E%91%20%EB%B0%A9%EC%8B%9D%EA%B3%BC%20%ED%99%94%EB%A9%B4%EC%97%90%20Cell%EC%9D%84%20%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0%20%EC%9C%84%ED%95%B4%20%EC%B5%9C%EC%86%8C%ED%95%9C%20%EA%B5%AC%ED%98%84%ED%95%B4%EC%95%BC%20%ED%95%98%EB%8A%94%20DataSource%20%EB%A9%94%EC%84%9C%EB%93%9C%EB%A5%BC%20%EC%84%9C/Turing/)
-- 하나의 View Controller 코드에서 여러 TableView Controller 역할을 해야 할 경우 어떻게 구분해서 구현해야 하는지 설명하시오.
+- [하나의 View Controller 코드에서 여러 TableView Controller 역할을 해야 할 경우 어떻게 구분해서 구현해야 하는지 설명하시오.](./iOS/13%EC%A3%BC%EC%B0%A8/%ED%95%98%EB%82%98%EC%9D%98%20View%20Controller%20%EC%BD%94%EB%93%9C%EC%97%90%EC%84%9C%20%EC%97%AC%EB%9F%AC%20TableView%20Controller%20%EC%97%AD%ED%95%A0%EC%9D%84%20%ED%95%B4%EC%95%BC%20%ED%95%A0%20%EA%B2%BD%EC%9A%B0%20%EC%96%B4%EB%96%BB%EA%B2%8C%20%EA%B5%AC%EB%B6%84%ED%95%B4%EC%84%9C%20%EA%B5%AC%ED%98%84%ED%95%B4%EC%95%BC%20%ED%95%98%EB%8A%94%EC%A7%80%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Leeds/)
 - [setNeedsLayout와 setNeedsDisplay의 차이에 대해 설명하시오.](./iOS/10%EC%A3%BC%EC%B0%A8/setNeedsLayout%EC%99%80%20setNeedsDisplay%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./PAKA/)
 - [stackView의 장점과 단점에 대해서 설명하시오.](./iOS/10%EC%A3%BC%EC%B0%A8/stackView%EC%9D%98%20%EC%9E%A5%EC%A0%90%EA%B3%BC%20%EB%8B%A8%EC%A0%90%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Leeds/)
 ###
