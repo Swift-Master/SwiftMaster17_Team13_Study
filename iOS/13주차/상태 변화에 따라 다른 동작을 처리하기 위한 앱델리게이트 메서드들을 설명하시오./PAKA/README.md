@@ -1,3 +1,13 @@
+<style>
+h2 {
+  color: orange;
+}
+
+h3 {
+	color : green;
+}
+</style>
+
 # 상태 변화에 따라 다른 동작을 처리하기 위한 앱델리게이트 메서드들을 설명하시오.
 
 ## 앱 델리게이트란
@@ -21,6 +31,7 @@
 <h2><font color="orange">라이프 사이클 관리</font></h2>
 iOS 12 및 이전 버전에서는 UIApplicationDelegate 객체를 사용하여 앱의 주요 수명 주기 이벤트를 관리했습니다. 특히 appDelegate 클래스의 메서드를 사용하여 앱이 foreground에 진입하거나 background으로 이동할 때 앱의 상태를 업데이트합니다.
 
+</br>
 <h3><font color = "green">앱이 실행될 때 호출되는 메서드들</font></h3>
 </br>
 <details><summary>간략</summary>
