@@ -1,13 +1,3 @@
-<style>
-h2 {
-  color: orange;
-}
-
-h3 {
-	color : green;
-}
-</style>
-
 # 상태 변화에 따라 다른 동작을 처리하기 위한 앱델리게이트 메서드들을 설명하시오.
 
 ## 앱 델리게이트란
@@ -53,7 +43,8 @@ iOS 12 및 이전 버전에서는 UIApplicationDelegate 객체를 사용하여 �
 </br>
 시스템은 사용자가 홈 화면에서 앱의 아이콘을 tap했을 때 실행시킵니다. 또는 앱의 특정 이벤트 요청에도 해당 이벤트를 처리하기 위해 background에서 앱을 실행시키기도 합니다. 
 </br>
-실행과정은 크게 UIApplication, appDelegate 객체 생성 - 최초 초기화 - 이전 상태 복원 & 현 상태 저장 - 최종 초기화로 이뤄지게 됩니다.</br>
+실행과정은 크게 UIApplication, appDelegate 객체 생성 - 최초 초기화 - 이전 상태 복원 & 현 상태 저장 - 최종 초기화로 이뤄지게 됩니다.
+</br>
 <font color="red"> scene 기반 앱에서도 app delegate를 사용하여 앱 실행과 삭제 같은 기초 이벤트들을 관리합니다.</font>
 
 </br>
