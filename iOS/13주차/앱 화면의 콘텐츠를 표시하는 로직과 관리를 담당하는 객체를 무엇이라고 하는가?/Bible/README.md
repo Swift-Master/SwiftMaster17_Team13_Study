@@ -14,5 +14,7 @@ ViewController의 주요 동작으로는,
 - 뷰 크기 조정과 전체 인터페이스의 레이아웃 관리
 - 다른 객체들과의 상호작용
 
+---
+
 ### 출처
 [UIViewController](https://developer.apple.com/documentation/uikit/uiviewcontroller)
