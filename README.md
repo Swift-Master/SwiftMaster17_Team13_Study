@@ -40,8 +40,8 @@
 - 모든 View Controller 객체의 상위 클래스는 무엇이고 그 역할은 무엇인가?
 - 자신만의 Custom View를 만들려면 어떻게 해야하는지 설명하시오.
 - [View 객체에 대해 설명하시오.](./iOS/8%EC%A3%BC%EC%B0%A8/View%20%EA%B0%9D%EC%B2%B4%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Turing/)
-- UIView 에서 Layer 객체는 무엇이고 어떤 역할을 담당하는지 설명하시오.
-- UIWindow 객체의 역할은 무엇인가?
+- [UIView 에서 Layer 객체는 무엇이고 어떤 역할을 담당하는지 설명하시오.](./iOS/14%EC%A3%BC%EC%B0%A8/UIView%20%EC%97%90%EC%84%9C%20Layer%20%EA%B0%9D%EC%B2%B4%EB%8A%94%20%EB%AC%B4%EC%97%87%EC%9D%B4%EA%B3%A0%20%EC%96%B4%EB%96%A4%20%EC%97%AD%ED%95%A0%EC%9D%84%20%EB%8B%B4%EB%8B%B9%ED%95%98%EB%8A%94%EC%A7%80%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Bible)
+- [UIWindow 객체의 역할은 무엇인가?](./iOS/14%EC%A3%BC%EC%B0%A8/UIWindow%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EC%97%AD%ED%95%A0%EC%9D%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%3F/PAKA)
 - UINavigationController 의 역할이 무엇인지 설명하시오.
 - [TableView를 동작 방식과 화면에 Cell을 출력하기 위해 최소한 구현해야 하는 DataSource 메서드를 설명하시오.](./iOS/10%EC%A3%BC%EC%B0%A8/TableView%EB%A5%BC%20%EB%8F%99%EC%9E%91%20%EB%B0%A9%EC%8B%9D%EA%B3%BC%20%ED%99%94%EB%A9%B4%EC%97%90%20Cell%EC%9D%84%20%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0%20%EC%9C%84%ED%95%B4%20%EC%B5%9C%EC%86%8C%ED%95%9C%20%EA%B5%AC%ED%98%84%ED%95%B4%EC%95%BC%20%ED%95%98%EB%8A%94%20DataSource%20%EB%A9%94%EC%84%9C%EB%93%9C%EB%A5%BC%20%EC%84%9C/Turing/)
 - [하나의 View Controller 코드에서 여러 TableView Controller 역할을 해야 할 경우 어떻게 구분해서 구현해야 하는지 설명하시오.](./iOS/13%EC%A3%BC%EC%B0%A8/%ED%95%98%EB%82%98%EC%9D%98%20View%20Controller%20%EC%BD%94%EB%93%9C%EC%97%90%EC%84%9C%20%EC%97%AC%EB%9F%AC%20TableView%20Controller%20%EC%97%AD%ED%95%A0%EC%9D%84%20%ED%95%B4%EC%95%BC%20%ED%95%A0%20%EA%B2%BD%EC%9A%B0%20%EC%96%B4%EB%96%BB%EA%B2%8C%20%EA%B5%AC%EB%B6%84%ED%95%B4%EC%84%9C%20%EA%B5%AC%ED%98%84%ED%95%B4%EC%95%BC%20%ED%95%98%EB%8A%94%EC%A7%80%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Leeds/)
@@ -84,7 +84,7 @@
 - [프로토콜이란 무엇인지 설명하시오.](./iOS/2%EC%A3%BC%EC%B0%A8/Personal/Protocol%EC%9D%B4%EB%9E%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EC%A7%80%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4/Turing/)
 - [Protocol Oriented Programming과 Object Oriented Programming의 차이점을 설명하시오.](./iOS/12%EC%A3%BC%EC%B0%A8/Protocol%20Oriented%20Programming%EA%B3%BC%20Object%20Oriented%20Programming%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%84%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Leeds/)
 - [Hashable이 무엇이고, Equatable을 왜 상속해야 하는지 설명하시오.](./iOS/4%EC%A3%BC%EC%B0%A8/Hashable%EC%9D%B4%20%EB%AC%B4%EC%97%87%EC%9D%B4%EA%B3%A0%2C%20Equatable%EC%9D%84%20%EC%99%9C%20%EC%83%81%EC%86%8D%ED%95%B4%EC%95%BC%20%ED%95%98%EB%8A%94%EC%A7%80%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4/Leeds/)
-- mutating 키워드에 대해 설명하시오.
+- [mutating 키워드에 대해 설명하시오.](./iOS/14%EC%A3%BC%EC%B0%A8/mutating%20%ED%82%A4%EC%9B%8C%EB%93%9C%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Leeds)
 - [탈출 클로저에 대하여 설명하시오.](./iOS/9%EC%A3%BC%EC%B0%A8/%ED%83%88%EC%B6%9C%20%ED%81%B4%EB%A1%9C%EC%A0%80%EC%97%90%20%EB%8C%80%ED%95%98%EC%97%AC%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Bible/)
 - [Extension에 대해 설명하시오.](./iOS/6%EC%A3%BC%EC%B0%A8/Extension%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Turing/)
 - [Extension 내부에서 함수를 override할 수 있는지 설명하시오.](./iOS/4%EC%A3%BC%EC%B0%A8/Extension%20%EB%82%B4%EB%B6%80%EC%97%90%EC%84%9C%20%ED%95%A8%EC%88%98%EB%A5%BC%20override%ED%95%A0%20%EC%88%98%20%EC%9E%88%EB%8A%94%EC%A7%80%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4/PAKA/)

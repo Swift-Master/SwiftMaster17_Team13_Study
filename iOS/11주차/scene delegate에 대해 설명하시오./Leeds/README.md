@@ -75,12 +75,32 @@ SceneDelegate = 화면에 무엇(scene/window)을 보여줄지 관리
 
 참고 사이트
 
-<br>
-
 ---
 
-<br>
 
 [https://sueaty.tistory.com/134](https://sueaty.tistory.com/134)
 
 [https://zeddios.tistory.com/811](https://zeddios.tistory.com/811)
+
+
+<br>
+
+### + Q&A
+
+Q. Scene Delegate를 설명하는 ios 13 사진에서 App Delegate 내부의 Session Lifecycle은 Scene 세션을 관리하는 건가요? 다른 컨셉의 세션일까요
+
+A. Scene 세션이 맞습니다 App Delegate > Session Lifecycle은 Scene Session을 관리하는 것으로 나와있고,두 life cycle 모두 Scene Session을 관리하고 있습니다.
+
+<br>
+
+**추가)**
+
+### **life cycle 별 Scene Session 역할**
+
+App Delegate
+
+- 모든 Scene의 상태를 저장하고 복원
+
+Scene Delegate
+
+- 해당되는 Scene의 상태를 저장하고 복원
