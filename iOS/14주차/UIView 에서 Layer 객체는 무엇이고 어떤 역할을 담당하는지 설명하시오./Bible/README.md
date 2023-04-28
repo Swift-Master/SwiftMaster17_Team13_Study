@@ -9,7 +9,11 @@ Layer 속성은 항상 CALayer 또는 CALayer 서브클래스 객체를 반환�
 UIView는 레이아웃 및 터치 이벤트와 같은 여러 작업들을 수행하지만 직접적으로 화면을 그리거나 애니메이션을 제어하지는 않습니다.
 
 UIView는 CALayer 위에 있는 wrapper라고 보면 됩니다.
+
+
 ![image](https://user-images.githubusercontent.com/59015538/235076872-0239d392-dd31-478e-9bf1-0af0dd0e6cc9.png)
+
+
 각각의 UIView에는 하나의 루트 CALayer가 있고, 여러 개의 서브레이어를 포함할 수 있습니다.  
 이 레이어의 속성으로 View의 그래픽과 애니메이션 처리를 향상시킬 수 있습니다.
 ```swift
