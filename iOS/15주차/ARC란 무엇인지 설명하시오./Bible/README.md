@@ -63,6 +63,6 @@ person3 = nil
 ```
 person3에 nil을 할당하는 시점에서 모든 참조가 끊기게 되고,  
 ARC는 Person 인스턴스가 더 이상 사용하지 않게되는 것을 알게 되어 메모리에서 해제하게 됩니다.
----
+
 ## 출처
 [Swift Documentation - Automatic Reference Counting](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/automaticreferencecounting/)
