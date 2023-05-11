@@ -12,7 +12,7 @@
  - [Jercy님 IOS 면접질문 레포](https://github.com/JeaSungLEE/iOSInterviewquestions)   
 
 ## iOS
-- Bounds 와 Frame 의 차이점을 설명하시오.
+- [Bounds 와 Frame 의 차이점을 설명하시오.](./iOS/15%EC%A3%BC%EC%B0%A8/Bounds%20%EC%99%80%20Frame%20%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%84%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Leeds/)
 - 실제 디바이스가 없을 경우 개발 환경에서 할 수 있는 것과 없는 것을 설명하시오.
 - 앱의 콘텐츠나 데이터 자체를 저장/보관하는 특별한 객체를 무엇이라고 하는가?
 - [앱 화면의 콘텐츠를 표시하는 로직과 관리를 담당하는 객체를 무엇이라고 하는가?](./iOS/13%EC%A3%BC%EC%B0%A8/%EC%95%B1%20%ED%99%94%EB%A9%B4%EC%9D%98%20%EC%BD%98%ED%85%90%EC%B8%A0%EB%A5%BC%20%ED%91%9C%EC%8B%9C%ED%95%98%EB%8A%94%20%EB%A1%9C%EC%A7%81%EA%B3%BC%20%EA%B4%80%EB%A6%AC%EB%A5%BC%20%EB%8B%B4%EB%8B%B9%ED%95%98%EB%8A%94%20%EA%B0%9D%EC%B2%B4%EB%A5%BC%20%EB%AC%B4%EC%97%87%EC%9D%B4%EB%9D%BC%EA%B3%A0%20%ED%95%98%EB%8A%94%EA%B0%80%3F/Bible/)
@@ -100,7 +100,7 @@
 - [Closure와 함수와의 관계에 대해 설명하시오.](./iOS/4%EC%A3%BC%EC%B0%A8/Closure%EC%99%80%20%ED%95%A8%EC%88%98%EC%99%80%EC%9D%98%20%EA%B4%80%EA%B3%84%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4/Turing/)
 
 ## ARC
-- ARC란 무엇인지 설명하시오.
+- [ARC란 무엇인지 설명하시오.](./iOS/15%EC%A3%BC%EC%B0%A8/ARC%EB%9E%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EC%A7%80%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Bible/)
 - Retain Count 방식에 대해 설명하시오.
 - Strong 과 Weak 참조 방식에 대해 설명하시오.
 - 순환 참조에 대하여 설명하시오.
@@ -164,7 +164,7 @@ Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 - JSON 데이터를 처리하는 방식과 파서, 객체 변환 방식에 대해 설명하시오.
 - 웹 서버와 HTTP 연결을 사용해서 데이터를 주거나 받으려면 사용해야 하는 클래스와 동작을 설명하시오.
 - Protocol에서는 왜 var만 되는지 설명하시요.
-- DispatchQueue.main.sync를 사용하는 상황을 설명하시오.
+- [DispatchQueue.main.sync를 사용하는 상황을 설명하시오.](./iOS/15%EC%A3%BC%EC%B0%A8/DispatchQueue.main.sync%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EC%83%81%ED%99%A9%EC%9D%84%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./PAKA/)
 - Run Loops에 대해 설명하시오.
 
 ## Objective-C
