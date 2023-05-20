@@ -2,7 +2,7 @@
 
 ## Deadlock(교착 상태)
 
-<image src = "https://assets.alexandria.raywenderlich.com/books/con/images/b16a1d42830d1be8ce504516ab25060093ec25636d407b535355beccbb1d5bc1/original.png" width = 30%></image>
+<image src = "https://github.com/Swift-Master/SwiftMaster17_Team13_Study/assets/116094622/b2b4d893-ca11-4af6-9396-3dd1be890b66" width = 30%></image>
 
 
 - 위 그림에서 차선을 대기열(queue), 차를 task라고 상상하고 생각해보자. 
