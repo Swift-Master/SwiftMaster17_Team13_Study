@@ -49,3 +49,6 @@ MRR 방식은 개발자가 직접 수동적으로 메모리를 관리하게 됩�
 
 ARC는 Retain Count 방식을 기반으로 자동적으로 메모리 관리를 하는 차이가 있습니다.
 
+### 출처
+- [Apple Documentaion Archive - About Memory Management](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/MemoryMgmt/Articles/MemoryMgmt.html)
+- [Apple Documentaion Archive - Transitioning to ARC Release Notes](https://developer.apple.com/library/archive/releasenotes/ObjectiveC/RN-TransitioningToARC/Introduction/Introduction.html#//apple_ref/doc/uid/TP40011226)
