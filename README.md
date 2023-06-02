@@ -48,7 +48,7 @@
 - [setNeedsLayout와 setNeedsDisplay의 차이에 대해 설명하시오.](./iOS/10%EC%A3%BC%EC%B0%A8/setNeedsLayout%EC%99%80%20setNeedsDisplay%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./PAKA/)
 - [stackView의 장점과 단점에 대해서 설명하시오.](./iOS/10%EC%A3%BC%EC%B0%A8/stackView%EC%9D%98%20%EC%9E%A5%EC%A0%90%EA%B3%BC%20%EB%8B%A8%EC%A0%90%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Leeds/)
 ###
-- NSCache와 딕셔너리로 캐시를 구성했을때의 차이를 설명하시오.
+- [NSCache와 딕셔너리로 캐시를 구성했을때의 차이를 설명하시오.](https://github.com/Swift-Master/SwiftMaster17_Team13_Study/tree/main/iOS/17%EC%A3%BC%EC%B0%A8/NSCache%EC%99%80%20%EB%94%95%EC%85%94%EB%84%88%EB%A6%AC%EB%A1%9C%20%EC%BA%90%EC%8B%9C%EB%A5%BC%20%EA%B5%AC%EC%84%B1%ED%96%88%EC%9D%84%EB%95%8C%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EB%A5%BC%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./PAKA)
 - [URLSession에 대해서 설명하시오.](./iOS/8%EC%A3%BC%EC%B0%A8/URLSession%EC%97%90%20%EB%8C%80%ED%95%B4%EC%84%9C%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Bible/)
 - [prepareForReuse에 대해서 설명하시오.](./iOS/9%EC%A3%BC%EC%B0%A8/prepareForReuse%EC%97%90%20%EB%8C%80%ED%95%B4%EC%84%9C%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./PAKA/)
 - 다크모드를 지원하는 방법에 대해 설명하시오.
@@ -102,7 +102,7 @@
 ## ARC
 - [ARC란 무엇인지 설명하시오.](./iOS/15%EC%A3%BC%EC%B0%A8/ARC%EB%9E%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EC%A7%80%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Bible/)
 - [Retain Count 방식에 대해 설명하시오.](https://github.com/Swift-Master/SwiftMaster17_Team13_Study/tree/main/iOS/16%EC%A3%BC%EC%B0%A8/Retain%20Count%20%EB%B0%A9%EC%8B%9D%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Bible)
-- Strong 과 Weak 참조 방식에 대해 설명하시오.
+- [Strong 과 Weak 참조 방식에 대해 설명하시오.](https://github.com/Swift-Master/SwiftMaster17_Team13_Study/tree/main/iOS/17%EC%A3%BC%EC%B0%A8/Strong%20%EA%B3%BC%20Weak%20%EC%B0%B8%EC%A1%B0%20%EB%B0%A9%EC%8B%9D%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Bible)
 - 순환 참조에 대하여 설명하시오.
 - 강한 순환 참조 (Strong Reference Cycle) 는 어떤 경우에 발생하는지 설명하시오.
 
