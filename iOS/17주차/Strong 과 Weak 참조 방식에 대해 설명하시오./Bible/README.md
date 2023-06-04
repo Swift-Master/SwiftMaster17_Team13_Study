@@ -126,3 +126,6 @@ Apartment 인스턴스의 유일한 참조인 unit4A에 nil을 할당하면 Apar
 
 <img width="673" alt="사진6" src="https://github.com/Swift-Master/SwiftMaster17_Team13_Study/assets/59015538/b738b2cc-5644-43f0-a4ea-406934c33394">
 
+## 출처
+[Swift Documentation - Automatic Reference Counting](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/automaticreferencecounting/)
+
