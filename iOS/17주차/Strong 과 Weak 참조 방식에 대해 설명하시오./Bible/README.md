@@ -35,7 +35,9 @@ john 변수에는 Person 인스턴스를 할당하고, unit4A 변수에는 Apart
 
 이 때는 john과 Person 사이에 **강한 참조**가 형성되고,  
 unit4A와 Apartment 사이에 **강한 참조**가 형성됩니다.
+
 <img width="683" alt="사진1" src="https://github.com/Swift-Master/SwiftMaster17_Team13_Study/assets/59015538/51a6b357-c6cd-48c6-9f60-340a1b7404c4">
+
 Person 인스턴스는 Reference Count 1,  
 Apartment 인스턴스도 Reference Count 1로 각각 1씩 갖게 됩니다.
 
@@ -45,7 +47,9 @@ john!.apartment = unit4A
 unit4A!.tenant = john
 ```
 이렇게 두 클래스 인스턴스를 연결하면서 Person 인스턴스와 Apartment 인스턴스 사이에 **강한 참조**가 형성됩니다.
+
 <img width="661" alt="사진2" src="https://github.com/Swift-Master/SwiftMaster17_Team13_Study/assets/59015538/4ec74cba-0900-4542-83fd-39d566753fed">
+
 서로를 참조하면서 Reference Count가 1씩 또 증가하니까  
 Person 인스턴스는 Reference Count 2,  
 Apartment 인스턴스 Reference Count 2가 됩니다.
@@ -57,7 +61,9 @@ unit4A = nil
 ```
 이 코드를 실행해도 소멸자는 실행되지 않습니다.  
 아직 Reference Count가 각 인스턴스에 1씩 남아있는 강한 참조가 존재하기 때문에 ARC는 메모리에서 해제시키지 않습니다.
+
 <img width="664" alt="사진3" src="https://github.com/Swift-Master/SwiftMaster17_Team13_Study/assets/59015538/46353a87-8b9a-4ed2-baa1-85fca255aa11">
+
 이 때 메모리 누수, 강한 참조 사이클이 발생하게 됩니다.
 
 ## Weak(약한 참조)
