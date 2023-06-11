@@ -36,7 +36,7 @@
 - [Delegate란 무엇인지 설명하고, retain 되는지 안되는지 그 이유를 함께 설명하시오.](./iOS/9%EC%A3%BC%EC%B0%A8/Delegate%EB%9E%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EC%A7%80%20%EC%84%A4%EB%AA%85%ED%95%98%EA%B3%A0%2C%20retain%20%EB%90%98%EB%8A%94%EC%A7%80%20%EC%95%88%EB%90%98%EB%8A%94%EC%A7%80%20%EA%B7%B8%20%EC%9D%B4%EC%9C%A0%EB%A5%BC%20%ED%95%A8%EA%BB%98%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Turing/)
 - NotificationCenter 동작 방식과 활용 방안에 대해 설명하시오.
 - [UIKit 클래스들을 다룰 때 꼭 처리해야하는 애플리케이션 쓰레드 이름은 무엇인가?](./iOS/11%EC%A3%BC%EC%B0%A8/UIKit%20%ED%81%B4%EB%9E%98%EC%8A%A4%EB%93%A4%EC%9D%84%20%EB%8B%A4%EB%A3%B0%20%EB%95%8C%20%EA%BC%AD%20%EC%B2%98%EB%A6%AC%ED%95%B4%EC%95%BC%ED%95%98%EB%8A%94%20%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%20%EC%93%B0%EB%A0%88%EB%93%9C%20%EC%9D%B4%EB%A6%84%EC%9D%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%3F/Bible/)
-- App Bundle의 구조와 역할에 대해 설명하시오.
+- [App Bundle의 구조와 역할에 대해 설명하시오.](https://github.com/Swift-Master/SwiftMaster17_Team13_Study/tree/main/iOS/18%EC%A3%BC%EC%B0%A8/App%20Bundle%EC%9D%98%20%EA%B5%AC%EC%A1%B0%EC%99%80%20%EC%97%AD%ED%95%A0%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./PAKA)
 - 모든 View Controller 객체의 상위 클래스는 무엇이고 그 역할은 무엇인가?
 - 자신만의 Custom View를 만들려면 어떻게 해야하는지 설명하시오.
 - [View 객체에 대해 설명하시오.](./iOS/8%EC%A3%BC%EC%B0%A8/View%20%EA%B0%9D%EC%B2%B4%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Turing/)
@@ -159,7 +159,7 @@ Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 - Foundation 과 Core Foundation 프레임워크의 차이점을 설명하시오.
 - NSURLConnection 에서 사용하는 Delegate 메서드들에 대해 설명하시오.
 - Synchronous 방식과 Asynchronous 방식으로 URL Connection을 처리할 경우의 장단점을 비교하시오.
-- Plist 파일 구조와 Plist 파일에 저장된 데이터를 다루기 적합한 클래스를 설명하시오.
+- [Plist 파일 구조와 Plist 파일에 저장된 데이터를 다루기 적합한 클래스를 설명하시오.](https://github.com/Swift-Master/SwiftMaster17_Team13_Study/tree/main/iOS/18%EC%A3%BC%EC%B0%A8/Plist%20%ED%8C%8C%EC%9D%BC%20%EA%B5%AC%EC%A1%B0%EC%99%80%20Plist%20%ED%8C%8C%EC%9D%BC%EC%97%90%20%EC%A0%80%EC%9E%A5%EB%90%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A5%BC%20%EB%8B%A4%EB%A3%A8%EA%B8%B0%20%EC%A0%81%ED%95%A9%ED%95%9C%20%ED%81%B4%EB%9E%98%EC%8A%A4%EB%A5%BC%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Bible)
 - Core Data와 Sqlite 같은 데이터 베이스의 차이점을 설명하시오.
 - JSON 데이터를 처리하는 방식과 파서, 객체 변환 방식에 대해 설명하시오.
 - 웹 서버와 HTTP 연결을 사용해서 데이터를 주거나 받으려면 사용해야 하는 클래스와 동작을 설명하시오.
