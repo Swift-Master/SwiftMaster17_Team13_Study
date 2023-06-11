@@ -39,7 +39,8 @@ do {
     print("ERROR")
 }
 ```
-<img width="700" alt="사진6" src="https://github.com/Swift-Master/SwiftMaster17_Team13_Study/assets/59015538/9ed360e9-84a1-43d9-be5b-144ca6bad20b">  
+<img width="700" alt="사진6" src="https://github.com/Swift-Master/SwiftMaster17_Team13_Study/assets/59015538/9ed360e9-84a1-43d9-be5b-144ca6bad20b">
+
 콘솔에 StudyPropertyList를 Dictionary에 담아 잘 출력되는 것을 볼 수 있습니다.
 
 Plist의 목록을 가져오는 `propertyList()` 메서드는,  
@@ -52,11 +53,10 @@ class func propertyList(
 ```
 오류를 던지는 함수여서 try-catch문과 함께 작성해주어야 합니다.
 
-이 메서드는 `PropertyListSerialization` 클래스 내부에 구현되어 있어서 PList 파일을 불러오는데에 사용됩니다.
-
+이 메서드는 `PropertyListSerialization` 클래스 내부에 구현되어 있어서 PList 파일을 불러오는데에 사용됩니다.  
 `PropertyListSerialization` 클래스 이외에도 `PropertyListEncoder`, `PropertyListDecoder` 클래스를 사용하여 PList의 데이터를 사용할 수 있습니다.
 
 ## 출처
-[What is plist in iOS?](https://www.tutorialspoint.com/what-is-plist-in-ios)
-[PropertyListSerialization - Apple Developer](https://developer.apple.com/documentation/foundation/propertylistserialization)
+- [What is plist in iOS?](https://www.tutorialspoint.com/what-is-plist-in-ios)
+- [PropertyListSerialization - Apple Developer](https://developer.apple.com/documentation/foundation/propertylistserialization)
 
