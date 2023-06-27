@@ -1,8 +1,8 @@
 # UINavigationController의 역할이 무엇인지 설명하시오.
 
 먼저, 컨테이너 뷰 컨트롤러는 여러 개의 자식 뷰 컨트롤러를 계층적으로 관리하하는 유형입니다.  
-기본적으로 앱의 데이터를 표시하는 것을 **컨텐츠 뷰 컨트롤러(content view controller)**라고 하고,  
-**컨테이너 뷰 컨트롤러(container view controller)**는 다른 뷰 컨트롤러를 화면에 표시하고 정렬하는 탐색 경험을 제공합니다.  
+기본적으로 앱의 데이터를 표시하는 것을 `컨텐츠 뷰 컨트롤러(content view controller)`라고 하고,  
+`컨테이너 뷰 컨트롤러(container view controller)`는 다른 뷰 컨트롤러를 화면에 표시하고 정렬하는 탐색 경험을 제공합니다.  
 (UINavigationController, UITabBarController, UIPageViewController 등등)
 
 UINavigationController는 계층적으로 콘텐츠를 탐색하기 위한 스택 기반의 컨테이너 뷰 컨트롤러입니다.
