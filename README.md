@@ -61,7 +61,7 @@
 - Intrinsic Size에 대해서 설명하시오.
 - 스토리보드를 이용했을때의 장단점을 설명하시오.
 - Safearea에 대해서 설명하시오.
-- Left Constraint 와 Leading Constraint 의 차이점을 설명하시오.
+- [Left Constraint 와 Leading Constraint 의 차이점을 설명하시오.](https://github.com/Swift-Master/SwiftMaster17_Team13_Study/tree/main/iOS/20%EC%A3%BC%EC%B0%A8/Left%20Constraint%20%EC%99%80%20Leading%20Constraint%20%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%84%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./Bible)
 
 ## Swift
 - [struct와 class와 enum의 차이를 설명하시오.](./iOS/3%EC%A3%BC%EC%B0%A8/struct%EC%99%80%20class%EC%99%80%20enum%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EB%A5%BC%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4/Turing/)
@@ -114,7 +114,7 @@
 
 ## Architecture
 - MVVM, MVI, Ribs, VIP 등 자신이 알고있는 아키텍쳐를 설명하시오.
-- 의존성 주입에 대하여 설명하시오.
+- [의존성 주입에 대하여 설명하시오.](https://github.com/Swift-Master/SwiftMaster17_Team13_Study/tree/main/iOS/20%EC%A3%BC%EC%B0%A8/%EC%9D%98%EC%A1%B4%EC%84%B1%20%EC%A3%BC%EC%9E%85%EC%97%90%20%EB%8C%80%ED%95%98%EC%97%AC%20%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4./PAKA)
 
 ## SwiftUI
 - @State에 대해서 설명하시오.
